@@ -1,0 +1,652 @@
+[
+  {
+    "id": "layout-grid",
+    "name": "网格与对齐",
+    "family": "布局与空间",
+    "aliases": [
+      "Grid",
+      "Alignment"
+    ],
+    "definition": "用共享的列、边缘和基线，让不同模块建立清楚的秩序。",
+    "cues": [
+      "标题与正文是否共线",
+      "卡片列宽与跨列关系",
+      "重复模块是否共用对齐规则"
+    ],
+    "tip": "先观察看不见的对齐线，再看装饰。网格不必全部等宽，但关系要能解释。",
+    "sample": "grid"
+  },
+  {
+    "id": "layout-columns",
+    "name": "分栏与主次",
+    "family": "布局与空间",
+    "aliases": [
+      "Columns",
+      "Sidebar",
+      "Split layout"
+    ],
+    "definition": "通过栏宽、位置和固定区域区分导航、主内容与辅助信息。",
+    "cues": [
+      "哪一栏承担主任务",
+      "固定栏与滚动栏怎样分工",
+      "窄屏时内容顺序怎样变化"
+    ],
+    "tip": "比较两栏作品集、三栏文档和后台布局；截图只反映当前桌面宽度。",
+    "sample": "columns"
+  },
+  {
+    "id": "layout-bento",
+    "name": "卡片与模块组合",
+    "family": "布局与空间",
+    "aliases": [
+      "Bento",
+      "Cards",
+      "Modules"
+    ],
+    "definition": "把信息放入有边界的模块，再通过大小、跨度和分组形成整体。",
+    "cues": [
+      "卡片大小是否有主次",
+      "模块内部是否有独立层级",
+      "卡片之间的节奏是否统一"
+    ],
+    "tip": "卡片是一种信息容器；不必把所有内容都装进同样大小的盒子。",
+    "sample": "bento"
+  },
+  {
+    "id": "layout-whitespace",
+    "name": "留白与呼吸",
+    "family": "布局与空间",
+    "aliases": [
+      "Whitespace",
+      "Negative space"
+    ],
+    "definition": "通过内容周围的空隙控制阅读速度、聚焦与页面的舒展程度。",
+    "cues": [
+      "内容宽度与两侧空间",
+      "段落之间的停顿",
+      "空白是否服务于重点"
+    ],
+    "tip": "比较留白的位置和比例，不把空得多直接等同于高级。",
+    "sample": "whitespace"
+  },
+  {
+    "id": "layout-density",
+    "name": "密度与疏密",
+    "family": "布局与空间",
+    "aliases": [
+      "Density",
+      "Compact UI"
+    ],
+    "definition": "通过单屏信息量、行高与模块间距，平衡浏览感受和操作效率。",
+    "cues": [
+      "一屏承载多少任务",
+      "行间与组间是否分得清",
+      "高密度时是否仍能快速扫描"
+    ],
+    "tip": "后台的密与品牌页的疏服务不同目的，先比较同类任务。",
+    "sample": "density"
+  },
+  {
+    "id": "layout-hierarchy",
+    "name": "视觉层级",
+    "family": "布局与空间",
+    "aliases": [
+      "Hierarchy",
+      "Visual weight"
+    ],
+    "definition": "通过尺度、位置、色彩和留白，让人按预期顺序看到信息。",
+    "cues": [
+      "第一眼落在哪里",
+      "标题、正文与操作是否分级",
+      "是否出现多个争抢注意力的主角"
+    ],
+    "tip": "先说出页面最重要的一个动作，再检查它是否真的最醒目。",
+    "sample": "hierarchy"
+  },
+  {
+    "id": "type-display",
+    "name": "标题尺度与展示字",
+    "family": "字体与排版",
+    "aliases": [
+      "Display type",
+      "Big typography"
+    ],
+    "definition": "让标题的字形、字号和断行承担主要视觉表达。",
+    "cues": [
+      "字号与正文的对比",
+      "断行是否形成明确节奏",
+      "字形是否与品牌语气一致"
+    ],
+    "tip": "大字不是单纯放大；同时观察行宽、行距和字形重量。",
+    "sample": "display"
+  },
+  {
+    "id": "type-sans",
+    "name": "无衬线字体",
+    "family": "字体与排版",
+    "aliases": [
+      "Sans serif",
+      "UI typography"
+    ],
+    "definition": "通过没有衬线的简洁字形、稳定字重与清楚的大小关系组织界面文字。",
+    "cues": [
+      "字形是否清楚直接",
+      "标题与正文怎样分配字重",
+      "小字号标签与数字是否易读"
+    ],
+    "tip": "无衬线也有不同的语气，观察开口、字形宽度和字重，而不只看字体类别。",
+    "sample": "sans"
+  },
+  {
+    "id": "type-serif",
+    "name": "衬线字体",
+    "family": "字体与排版",
+    "aliases": [
+      "Serif",
+      "Editorial typography"
+    ],
+    "definition": "使用衬线字形的笔画与粗细关系，传达阅读、文化或精致的气质。",
+    "cues": [
+      "衬线标题与正文怎样搭配",
+      "粗细变化是否清晰",
+      "英文与中文是否协调"
+    ],
+    "tip": "识别字形和搭配方式，不根据网站行业直接推断字体。",
+    "sample": "serif"
+  },
+  {
+    "id": "type-mono",
+    "name": "等宽与技术字",
+    "family": "字体与排版",
+    "aliases": [
+      "Monospace",
+      "Technical typography"
+    ],
+    "definition": "用等宽字符、参数式标注和代码感建立技术秩序。",
+    "cues": [
+      "字符宽度是否一致",
+      "数字、参数和标签的对齐",
+      "正文与技术标注是否分工"
+    ],
+    "tip": "区分整页等宽表达与局部代码或参数标注。",
+    "sample": "mono"
+  },
+  {
+    "id": "type-pixel",
+    "name": "像素与点阵字",
+    "family": "字体与排版",
+    "aliases": [
+      "Pixel font",
+      "Bitmap type"
+    ],
+    "definition": "借用有限像素网格、点阵和阶梯边缘形成复古数码语言。",
+    "cues": [
+      "字形是否遵循像素网格",
+      "像素字体与控件的统一",
+      "小尺寸时是否能辨认"
+    ],
+    "tip": "这里的像素字是字形元素，与整个网站是否采用像素风分开筛选。",
+    "sample": "pixel"
+  },
+  {
+    "id": "type-reading",
+    "name": "行长、行距与正文节奏",
+    "family": "字体与排版",
+    "aliases": [
+      "Line length",
+      "Leading",
+      "Reading rhythm"
+    ],
+    "definition": "通过正文宽度、行距、段距与字重，让长内容更容易连续阅读。",
+    "cues": [
+      "回到下一行是否轻松",
+      "段落之间是否容易辨认",
+      "加粗与链接是否节制"
+    ],
+    "tip": "比较正文区而非只看首屏标题；字体、语言与阅读场景会影响合适的尺度。",
+    "sample": "reading"
+  },
+  {
+    "id": "color-neutral",
+    "name": "中性色与灰阶",
+    "family": "色彩与对比",
+    "aliases": [
+      "Neutral",
+      "Grayscale",
+      "Monochrome"
+    ],
+    "definition": "通过黑白灰或接近中性的色阶区分背景、表面与文字层次。",
+    "cues": [
+      "背景与卡片相差几层",
+      "次要文字是否仍可读",
+      "边框是否过强或过弱"
+    ],
+    "tip": "看中性色之间的相对关系，不只看是否使用黑白。",
+    "sample": "neutral"
+  },
+  {
+    "id": "color-accent",
+    "name": "强调色与焦点",
+    "family": "色彩与对比",
+    "aliases": [
+      "Accent color",
+      "Focal color"
+    ],
+    "definition": "把少量颜色留给主操作、选中态或关键信息，建立稳定的视觉焦点。",
+    "cues": [
+      "强调色集中在哪些位置",
+      "主操作与普通链接是否分级",
+      "选中状态是否一致"
+    ],
+    "tip": "观察颜色承担什么职责，而不只是选一个好看的主色。",
+    "sample": "accent"
+  },
+  {
+    "id": "color-vivid",
+    "name": "撞色与高对比配色",
+    "family": "色彩与对比",
+    "aliases": [
+      "Bold color",
+      "Color blocking",
+      "Contrast"
+    ],
+    "definition": "用差异鲜明的色块和明暗关系制造活力与辨识度。",
+    "cues": [
+      "主色与配角是否分工",
+      "大色块怎样保持平衡",
+      "文字是否从背景中清楚跳出"
+    ],
+    "tip": "高饱和不等于高对比，仍需检查文字和操作的可辨认程度。",
+    "sample": "vivid"
+  },
+  {
+    "id": "color-pastel",
+    "name": "柔和与低饱和配色",
+    "family": "色彩与对比",
+    "aliases": [
+      "Pastel palette",
+      "Muted colors"
+    ],
+    "definition": "用较柔和的色彩、暖冷关系和适量留白降低视觉压力。",
+    "cues": [
+      "柔和底色怎样衬托文字",
+      "颜色之间是否仍有层级",
+      "品牌的亲和感来自哪里"
+    ],
+    "tip": "低饱和也需要足够的明暗对比，不能把文字一起淡掉。",
+    "sample": "pastel"
+  },
+  {
+    "id": "color-gradient",
+    "name": "渐变与色彩过渡",
+    "family": "色彩与对比",
+    "aliases": [
+      "Gradient",
+      "Mesh gradient",
+      "Iridescence"
+    ],
+    "definition": "通过颜色连续变化形成光感、方向感或流动的背景。",
+    "cues": [
+      "渐变方向与主体是否一致",
+      "色彩过渡是否抢走阅读焦点",
+      "渐变用于背景还是局部文字"
+    ],
+    "tip": "渐变可以是配角；比较使用范围和强度。",
+    "sample": "gradient"
+  },
+  {
+    "id": "shape-square",
+    "name": "直角与硬边几何",
+    "family": "形状与轮廓",
+    "aliases": [
+      "Square",
+      "Sharp geometry"
+    ],
+    "definition": "用直角、明确的几何切分和稳定的边界建立理性或硬朗的感觉。",
+    "cues": [
+      "直角是否贯穿卡片与控件",
+      "几何形状怎样组织画面",
+      "硬边与字体是否协调"
+    ],
+    "tip": "观察整套轮廓语言，而不是只找一个直角盒子。",
+    "sample": "square"
+  },
+  {
+    "id": "shape-round",
+    "name": "圆角与胶囊",
+    "family": "形状与轮廓",
+    "aliases": [
+      "Rounded",
+      "Pill",
+      "Radius"
+    ],
+    "definition": "通过不同尺度的圆角与胶囊形状调整界面的亲和感和操作识别。",
+    "cues": [
+      "按钮与卡片是否有圆角层级",
+      "圆角是否适合容器大小",
+      "胶囊是否用于特定角色"
+    ],
+    "tip": "比较圆角体系的关系，不要求所有组件使用同一个数值。",
+    "sample": "round"
+  },
+  {
+    "id": "shape-organic",
+    "name": "有机与不规则形状",
+    "family": "形状与轮廓",
+    "aliases": [
+      "Organic shapes",
+      "Blobs",
+      "Irregular"
+    ],
+    "definition": "用非机械对称的曲线、团块或不规则轮廓表达轻松和生命感。",
+    "cues": [
+      "形状是否呼应内容",
+      "装饰与阅读区域是否分开",
+      "不规则是否仍有一致语言"
+    ],
+    "tip": "不规则形状通常更适合作为视觉配角，除非它本身承担导航或交互。",
+    "sample": "organic"
+  },
+  {
+    "id": "edge-fine",
+    "name": "细线与分割",
+    "family": "线条与边界",
+    "aliases": [
+      "Hairline",
+      "Divider",
+      "Fine border"
+    ],
+    "definition": "用克制的描边和分割线定义区域，又不制造过重的视觉框架。",
+    "cues": [
+      "线条与表面的对比",
+      "分组是否真的需要画线",
+      "相邻模块的边界是否重复"
+    ],
+    "tip": "留白和线条可互相补充；不是每一组信息都需要边框。",
+    "sample": "fine"
+  },
+  {
+    "id": "edge-bold",
+    "name": "粗描边与强边界",
+    "family": "线条与边界",
+    "aliases": [
+      "Bold border",
+      "Outline"
+    ],
+    "definition": "用较重的轮廓线明确控件、图形与卡片的存在感。",
+    "cues": [
+      "边框粗细是否有规范",
+      "边框与字体重量是否平衡",
+      "强轮廓是否帮助识别交互"
+    ],
+    "tip": "粗边框是元素，新粗野主义是组合语言，两者可以独立检索。",
+    "sample": "bold"
+  },
+  {
+    "id": "edge-sketch",
+    "name": "手绘线条与标记",
+    "family": "线条与边界",
+    "aliases": [
+      "Sketch lines",
+      "Hand drawn",
+      "Annotations"
+    ],
+    "definition": "通过略带随机性的线条、圈画与荧光笔标记制造手工感。",
+    "cues": [
+      "线条是否自然但可辨认",
+      "标记是否突出真正的重点",
+      "手绘风是否延伸到控件"
+    ],
+    "tip": "比较整页草图控件与局部手写标记，它们的使用范围不同。",
+    "sample": "sketch"
+  },
+  {
+    "id": "depth-hard",
+    "name": "硬阴影与平面叠层",
+    "family": "光影与材质",
+    "aliases": [
+      "Hard shadow",
+      "Offset shadow"
+    ],
+    "definition": "用清晰、无模糊或低模糊的偏移阴影表达层叠和图形感。",
+    "cues": [
+      "阴影方向是否一致",
+      "偏移是否影响可点区域判断",
+      "阴影与描边是否配套"
+    ],
+    "tip": "不要把硬阴影和真实环境光混用而失去统一的空间逻辑。",
+    "sample": "hard-shadow"
+  },
+  {
+    "id": "depth-soft",
+    "name": "柔阴影与浮雕",
+    "family": "光影与材质",
+    "aliases": [
+      "Soft shadow",
+      "Emboss",
+      "Inset"
+    ],
+    "definition": "用柔和明暗与内外阴影表达悬浮、凸起或凹陷。",
+    "cues": [
+      "表面是浮起还是压下",
+      "光源方向是否一致",
+      "阴影是否代替了必要的对比"
+    ],
+    "tip": "浮雕效果要同时照顾文字与状态的辨认。",
+    "sample": "soft-shadow"
+  },
+  {
+    "id": "depth-glass",
+    "name": "透明、模糊与玻璃层",
+    "family": "光影与材质",
+    "aliases": [
+      "Transparency",
+      "Backdrop blur",
+      "Glass"
+    ],
+    "definition": "把透明度、背景模糊和亮边组合成可感知的半透明表面。",
+    "cues": [
+      "背景是否仍能辨识",
+      "文字是否受背景干扰",
+      "边缘是否足以定义面板"
+    ],
+    "tip": "普通毛玻璃与带折射的液态玻璃有差别，具体实现请看原站。",
+    "sample": "glass"
+  },
+  {
+    "id": "depth-glow",
+    "name": "发光与高光",
+    "family": "光影与材质",
+    "aliases": [
+      "Glow",
+      "Highlight",
+      "Bloom"
+    ],
+    "definition": "通过局部光晕、亮边或高光突出主体并建立夜间、科技或舞台氛围。",
+    "cues": [
+      "光源来自哪里",
+      "发光是否围绕真正的重点",
+      "亮部是否淹没细节"
+    ],
+    "tip": "光效适合建立焦点，不宜让所有组件同时发光。",
+    "sample": "glow"
+  },
+  {
+    "id": "depth-texture",
+    "name": "纹理与重复底纹",
+    "family": "光影与材质",
+    "aliases": [
+      "Texture",
+      "Pattern",
+      "Dithering"
+    ],
+    "definition": "用点阵、颗粒、网纹或重复图案给背景与表面增加触感。",
+    "cues": [
+      "纹理的颗粒尺度",
+      "背景图案是否干扰文字",
+      "纹理是否与品牌时期感一致"
+    ],
+    "tip": "区分有目的的底纹与压缩噪点；静态截图不能证明材质的实现方式。",
+    "sample": "texture"
+  },
+  {
+    "id": "image-photo",
+    "name": "摄影与产品主视觉",
+    "family": "图像与图形",
+    "aliases": [
+      "Photography",
+      "Product hero"
+    ],
+    "definition": "让产品或场景摄影承担情绪、质感和核心信息的传达。",
+    "cues": [
+      "光线与色调是否一致",
+      "主体裁切和视线方向",
+      "图片与文案怎样共同讲述"
+    ],
+    "tip": "同时看图片选择、裁切和排版位置，而不是只看照片本身。",
+    "sample": "photo"
+  },
+  {
+    "id": "image-illustration",
+    "name": "插画与角色图形",
+    "family": "图像与图形",
+    "aliases": [
+      "Illustration",
+      "Mascot",
+      "Character"
+    ],
+    "definition": "用插画、角色和叙事图形解释内容并建立可识别的品牌性格。",
+    "cues": [
+      "插画是否属于同一套语言",
+      "角色承担说明还是装饰",
+      "图形与文字的比例关系"
+    ],
+    "tip": "这里关注图像元素；整站风格仍可与极简、复古等组合。",
+    "sample": "illustration"
+  },
+  {
+    "id": "image-3d",
+    "name": "三维形体与空间图形",
+    "family": "图像与图形",
+    "aliases": [
+      "3D forms",
+      "Spatial graphics"
+    ],
+    "definition": "通过三维形体、材质和空间关系建立画面的体积感。",
+    "cues": [
+      "材质和光照是否统一",
+      "形体与页面的透视关系",
+      "三维主体是否帮助理解产品"
+    ],
+    "tip": "静态 3D 图、视频与实时场景是不同实现，截图只展示视觉结果。",
+    "sample": "three-d"
+  },
+  {
+    "id": "image-collage",
+    "name": "拼贴与异质素材",
+    "family": "图像与图形",
+    "aliases": [
+      "Collage",
+      "Cutout",
+      "Mixed media"
+    ],
+    "definition": "将来自不同视觉语境的图片、贴纸、纹理和文字重新组合。",
+    "cues": [
+      "素材之间是否有共同主题",
+      "叠加顺序与阅读顺序",
+      "异质图形怎样保持整体感"
+    ],
+    "tip": "拼贴可以局部使用，不一定要把整页做成极繁风格。",
+    "sample": "collage"
+  },
+  {
+    "id": "motion-feedback",
+    "name": "交互触发与动态反馈",
+    "family": "动效与交互",
+    "aliases": [
+      "Microinteraction",
+      "Motion feedback"
+    ],
+    "definition": "让输入、点击或选择触发可感知的变化，解释操作正在产生什么结果。",
+    "cues": [
+      "什么动作触发变化",
+      "变化是否让结果更清楚",
+      "减少动效时是否仍能理解"
+    ],
+    "tip": "这些案例有可操作的原站演示；静态截图不代表完整动态过程。",
+    "sample": "feedback",
+    "live": true
+  },
+  {
+    "id": "motion-scene",
+    "name": "场景入口与空间交互",
+    "family": "动效与交互",
+    "aliases": [
+      "Spatial interaction",
+      "Interactive scene"
+    ],
+    "definition": "把浏览动作与场景状态关联起来，让人进入或探索一个空间。",
+    "cues": [
+      "入口与操作提示是否清楚",
+      "场景如何回应操作",
+      "空间体验是否仍能找到导航"
+    ],
+    "tip": "请打开原站体验；截图只能记录场景的某一个时刻。",
+    "sample": "scene",
+    "live": true
+  },
+  {
+    "id": "component-button",
+    "name": "按钮层级与操作焦点",
+    "family": "控件与反馈",
+    "aliases": [
+      "Button hierarchy",
+      "Primary action",
+      "CTA"
+    ],
+    "definition": "用填充、描边、文字和位置区分主要、次要及辅助操作。",
+    "cues": [
+      "同一区域是否只有一个主操作",
+      "按钮文案是否说明结果",
+      "强调程度是否与操作重要性一致"
+    ],
+    "tip": "优先比较组件演示与真实页面中的层级使用，不把所有按钮做得同样醒目。",
+    "sample": "buttons"
+  },
+  {
+    "id": "component-input",
+    "name": "表单与输入控件",
+    "family": "控件与反馈",
+    "aliases": [
+      "Form",
+      "Input",
+      "Field"
+    ],
+    "definition": "通过标签、输入区域、帮助信息和分组，使填写与选择更清楚。",
+    "cues": [
+      "标签与输入区域的从属关系",
+      "帮助和错误信息出现在哪里",
+      "表单组之间的间距"
+    ],
+    "tip": "比较控件的完整组合；placeholder 不应承担全部说明。",
+    "sample": "input"
+  },
+  {
+    "id": "component-state",
+    "name": "状态与语义反馈",
+    "family": "控件与反馈",
+    "aliases": [
+      "States",
+      "Status",
+      "Semantic feedback"
+    ],
+    "definition": "用颜色、图形、文案和控件变化传达选中、等待、成功或不可操作等状态。",
+    "cues": [
+      "是否只依赖颜色",
+      "不同状态是否可区分",
+      "状态是否给出下一步提示"
+    ],
+    "tip": "截图主要用于观察状态的视觉语言；动态状态需在原站实际操作。",
+    "sample": "states"
+  }
+]

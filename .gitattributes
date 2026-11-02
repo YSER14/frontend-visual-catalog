@@ -1,0 +1,7 @@
+# 文本统一 LF，避免跨平台产生整文件差异
+* text=auto eol=lf
+
+# 截图按二进制处理
+*.jpg binary
+*.jpeg binary
+*.png binary

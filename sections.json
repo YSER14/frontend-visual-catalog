@@ -1,0 +1,782 @@
+[
+  {
+    "id": "sec-hero",
+    "name": "首屏主视觉",
+    "family": "入场",
+    "aliases": [
+      "Hero",
+      "Hero section",
+      "首屏"
+    ],
+    "definition": "用一句价值主张、一个主行动点与一块主视觉交代这是什么、给谁用，让访客在首屏内决定是否继续往下看。",
+    "cues": [
+      "一句价值主张",
+      "单一主 CTA",
+      "品牌或产品主视觉"
+    ],
+    "boundary": "只有大图轮播、没有主张与行动点的不算，那更接近画廊式首屏；已含价格或问答的整段首屏归各自版块。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-button",
+      "type-display"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-header",
+    "name": "顶部导航条",
+    "family": "入场",
+    "aliases": [
+      "Header",
+      "Navbar",
+      "Top nav"
+    ],
+    "definition": "在页面顶端提供 logo、主导航与一个主行动点，让访客在任意位置都能换页或开始转化。",
+    "cues": [
+      "logo 与 3–7 个主导航项",
+      "一个主 CTA 按钮",
+      "固定、收缩或透明覆盖在内容上"
+    ],
+    "boundary": "只有链接堆叠、没有主导航分层的页脚式导航不算；侧边栏导航归 layout-columns，不重复计。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-columns",
+      "component-button"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-banner",
+    "name": "公告/横幅条",
+    "family": "入场",
+    "aliases": [
+      "Banner",
+      "Announcement bar",
+      "Notice bar"
+    ],
+    "definition": "在页面最顶端用一行承载发布、促销或合规提示，可关闭，从而把临时信息与主内容分开。",
+    "cues": [
+      "贴顶的单行横条",
+      "一句提示加可选链接",
+      "末端有关闭按钮"
+    ],
+    "boundary": "首屏内的大幅促销画面不算，它是 sec-hero 的组成部分；页面中段的提示条归 sec-cta。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/components/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-logo-cloud",
+    "name": "客户标志墙",
+    "family": "论证",
+    "aliases": [
+      "Logo cloud",
+      "Logo wall",
+      "客户 logo 墙"
+    ],
+    "definition": "把 5–8 个客户或合作方标志等距排列，用谁在用来替代自述、快速建立可信度。",
+    "cues": [
+      "灰阶或单色 logo 阵列",
+      "等距等大的重复网格",
+      "上方一句「他们都在用」式标题"
+    ],
+    "boundary": "带评价文字与姓名的客户推荐不算，归 sec-testimonial；可点击进入各自说明页的生态墙归 sec-integrations。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-testimonial",
+    "name": "客户证言",
+    "family": "论证",
+    "aliases": [
+      "Testimonial",
+      "Customer quote",
+      "客户评价"
+    ],
+    "definition": "用客户原话配姓名、职位与公司，把抽象卖点替换成他人已验证的使用结果。",
+    "cues": [
+      "客户原话引号",
+      "姓名、职位与公司",
+      "头像或客户品牌 logo"
+    ],
+    "boundary": "只有星级与一句短评、没有身份信息的不算；纯人物头像墙归 sec-team，纯数据成绩归 sec-stats。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "shape-round"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-stats",
+    "name": "数字带",
+    "family": "论证",
+    "aliases": [
+      "Stats",
+      "Metrics band",
+      "数据带"
+    ],
+    "definition": "用 3–4 个横向等分的大数字加口径说明，把规模与结果压缩成一眼可读的证据。",
+    "cues": [
+      "3–4 个并排大数字",
+      "数字下方有单位或口径",
+      "横向等分的窄条带"
+    ],
+    "boundary": "单个数字的口号式标题不算；带图表的分析面板归 sec-showcase，价格数字归 sec-pricing。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-display",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-feature-grid",
+    "name": "功能网格",
+    "family": "论证",
+    "aliases": [
+      "Feature grid",
+      "Features",
+      "功能列表"
+    ],
+    "definition": "用 6–9 个等宽卡片逐条拆解能力，让访客不读长文也能扫完产品范围。",
+    "cues": [
+      "等宽等距的卡片阵列",
+      "图标加短标题与一句说明",
+      "三列或三乘三排布"
+    ],
+    "boundary": "卡片大小不一、明显拼成卖点矩阵的不算网格，归 sec-bento；每块配大图的交替叙事归 sec-feature-split。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "layout-bento",
+      "color-accent"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-feature-split",
+    "name": "图文交替",
+    "family": "论证",
+    "aliases": [
+      "Feature split",
+      "Zigzag",
+      "图文左右"
+    ],
+    "definition": "以左文右图、左图右文交替的整幅区块，为每个功能给足解释空间与视觉证据。",
+    "cues": [
+      "整幅左右分栏",
+      "图文位置逐块左右互换",
+      "一块只讲一个功能"
+    ],
+    "boundary": "全页统一左文右图的单一版式不算交替；并排小卡归 sec-feature-grid，整屏演示归 sec-showcase。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-columns",
+      "image-photo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-bento",
+    "name": "非等宽拼块",
+    "family": "论证",
+    "aliases": [
+      "Bento grid",
+      "Bento section",
+      "拼块"
+    ],
+    "definition": "用大小不一的模块拼成一张卖点矩阵，靠格子的尺寸而非标题层级给出主次。",
+    "cues": [
+      "大小不等的模块拼块",
+      "跨行跨列的大格",
+      "整体构成一块矩形区域"
+    ],
+    "boundary": "等宽等高卡片阵列归 sec-feature-grid；全站按拼块组织的版式属 bento 风格，不重复计成本版块。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-bento",
+      "bento"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-showcase",
+    "name": "产品界面展示",
+    "family": "论证",
+    "aliases": [
+      "Product showcase",
+      "App preview",
+      "界面演示"
+    ],
+    "definition": "用大截图、录屏或浏览器外框直接展示真实产品界面，让访客先看到成品再读说明。",
+    "cues": [
+      "真实界面截图或录屏",
+      "浏览器或设备外框",
+      "热点标注或可滚动内嵌"
+    ],
+    "boundary": "装饰性配图与摄影不算；宣传性插画归 image-illustration，功能分条归 sec-feature-grid。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "depth-soft"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-steps",
+    "name": "流程三步",
+    "family": "论证",
+    "aliases": [
+      "Steps",
+      "How it works",
+      "三步流程"
+    ],
+    "definition": "用编号 01/02/03 加连接线解释使用顺序，把怎么开始压成可预期的三段。",
+    "cues": [
+      "01/02/03 编号",
+      "步骤之间的连接线或箭头",
+      "每步一个动词短语标题"
+    ],
+    "boundary": "没有序号的多卡片流程不算，归 sec-feature-grid；带表单的实操向导归 sec-contact 或应用内流程。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "type-display"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-comparison",
+    "name": "对比表",
+    "family": "论证",
+    "aliases": [
+      "Comparison",
+      "Comparison table",
+      "对比"
+    ],
+    "definition": "把本方案与替代方案逐行对照，用同一组维度替访客完成选谁的判断。",
+    "cues": [
+      "两列以上的方案对照",
+      "逐行同一指标",
+      "对勾、叉号或数值差"
+    ],
+    "boundary": "只列自家档位的对照归 sec-pricing；没有维度对齐的一段文字比较不算表。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-pricing",
+    "name": "价格表",
+    "family": "转化",
+    "aliases": [
+      "Pricing",
+      "Plans",
+      "价格方案"
+    ],
+    "definition": "用 2–4 个并列方案与功能对照，让访客在页内完成选型而不必联系销售。",
+    "cues": [
+      "并列方案卡",
+      "推荐档高亮",
+      "功能对勾对照"
+    ],
+    "boundary": "只有价格数字、没有方案并列与功能对照的不算；电商商品页的价格区归 sec-product-detail。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-button",
+      "layout-grid"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-calculator",
+    "name": "报价/配置器",
+    "family": "转化",
+    "aliases": [
+      "Calculator",
+      "Pricing calculator",
+      "配置器"
+    ],
+    "definition": "让访客用滑杆或选项组合出自身需求，页面即时给出价格或规格，把问价变成自助。",
+    "cues": [
+      "滑杆或多选控件",
+      "随输入实时变化的报价",
+      "结果区与请求报价按钮"
+    ],
+    "boundary": "静态档位表不算计算器，归 sec-pricing；提交后才给报价的表单归 sec-contact。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-input",
+      "component-state"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-integrations",
+    "name": "集成/生态网格",
+    "family": "转化",
+    "aliases": [
+      "Integrations",
+      "Ecosystem",
+      "集成"
+    ],
+    "definition": "用分类图标墙加搜索展示可连接的第三方系统，回答能不能接进我现有工具链。",
+    "cues": [
+      "密集的第三方 logo 网格",
+      "分类或搜索过滤",
+      "每个入口链到独立说明页"
+    ],
+    "boundary": "只摆客户 logo 的信任区块归 sec-logo-cloud；开发者 API 文档目录不算版块。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "component-input"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-faq",
+    "name": "常见问题",
+    "family": "转化",
+    "aliases": [
+      "FAQ",
+      "Questions",
+      "常见问题"
+    ],
+    "definition": "用手风琴收纳 8–12 个反复被问的问题，在转化前先消掉最后一批疑虑。",
+    "cues": [
+      "可展开的问答列表",
+      "问题行加折叠箭头",
+      "末条常导流到联系入口"
+    ],
+    "boundary": "带搜索与分类的帮助中心不算版块；纯条款与说明段落不算问答。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state",
+      "type-reading"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-cta",
+    "name": "转化条",
+    "family": "转化",
+    "aliases": [
+      "CTA",
+      "Call to action",
+      "行动区"
+    ],
+    "definition": "在页面中段或尾部放一整幅行动区，用一句主张加一个按钮把阅读动量收成点击。",
+    "cues": [
+      "整幅色块或大留白区块",
+      "一句主张加一个按钮",
+      "没有多余导航与细节"
+    ],
+    "boundary": "首屏内的主行动点不算转化条，归 sec-hero；需要填多字段的表单区归 sec-contact 或 sec-newsletter。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-button",
+      "color-accent"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-newsletter",
+    "name": "订阅区",
+    "family": "转化",
+    "aliases": [
+      "Newsletter",
+      "Subscribe",
+      "订阅"
+    ],
+    "definition": "用一个输入框加一句价值说明换取邮箱，把一次性访客转成可反复触达的名单。",
+    "cues": [
+      "单个邮箱输入框",
+      "一句订阅收益说明",
+      "隐私或发送频率承诺"
+    ],
+    "boundary": "有多字段的表单不算，归 sec-contact；页脚里附带的极简邮箱框归 sec-footer，不单独计。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-input",
+      "component-button"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-team",
+    "name": "团队介绍",
+    "family": "信任与人",
+    "aliases": [
+      "Team",
+      "People",
+      "团队"
+    ],
+    "definition": "用头像网格配姓名与角色，把背后是谁变成可核对的具体面孔。",
+    "cues": [
+      "人物头像网格",
+      "姓名加职位",
+      "可链到个人页或简介"
+    ],
+    "boundary": "客户头像与引语不算团队介绍，归 sec-testimonial；只有创办人一段话的归 sec-hero 或独立关于页。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "shape-round",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-contact",
+    "name": "联系区",
+    "family": "信任与人",
+    "aliases": [
+      "Contact",
+      "Get in touch",
+      "联系我们"
+    ],
+    "definition": "用表单或邮箱地址加响应时间承诺，把想合作的意向接住并给出下一步。",
+    "cues": [
+      "姓名、邮箱与留言字段",
+      "提交按钮",
+      "响应时间或地址信息"
+    ],
+    "boundary": "只留社交图标的不算；单输入框订阅归 sec-newsletter，报价计算归 sec-calculator。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-input",
+      "component-button"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-blog-index",
+    "name": "内容索引",
+    "family": "内容与收尾",
+    "aliases": [
+      "Blog index",
+      "Article list",
+      "内容索引"
+    ],
+    "definition": "用文章卡片列表加分类或分页，证明内容在持续更新并给访客第二条进入路径。",
+    "cues": [
+      "文章卡片列表",
+      "日期或分类标签",
+      "分页或「查看全部」入口"
+    ],
+    "boundary": "单篇文章正文不归此类；只有时间线没有卡片列表的更新日志不按索引计。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "type-reading"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-footer",
+    "name": "页脚",
+    "family": "内容与收尾",
+    "aliases": [
+      "Footer",
+      "Site footer",
+      "页脚"
+    ],
+    "definition": "用站点地图、法务信息与社交入口收束整页，同时接住从任何位置掉到底部的访客。",
+    "cues": [
+      "多列站点地图链接",
+      "版权与隐私条款",
+      "社交或语言地区切换"
+    ],
+    "boundary": "只有一行版权不算页脚版块；顶部导航不因链接结构相似而计为页脚。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/components/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-columns",
+      "type-reading"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "sec-404",
+    "name": "404/空页",
+    "family": "内容与收尾",
+    "aliases": [
+      "404",
+      "Not found",
+      "错误页"
+    ],
+    "definition": "在找不到内容时用一句说明加返回路径或搜索，把死路转成继续浏览的入口。",
+    "cues": [
+      "错误码或一句找不到的说明",
+      "返回首页或搜索入口",
+      "整页空状态而非页内提示"
+    ],
+    "boundary": "列表为空时的页内空状态不算整页；服务异常的错误堆栈页不算设计版块。",
+    "source": [
+      {
+        "label": "Float UI sections.json",
+        "url": "https://github.com/MarsX-dev/floatui/blob/main/sections/sections.json",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-display",
+      "component-state"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "sec-product-detail",
+    "name": "商品/详情区",
+    "family": "内容与收尾",
+    "aliases": [
+      "Product detail",
+      "PDP",
+      "商品详情"
+    ],
+    "definition": "用图集、规格与加入购物车把单个商品讲清，承担电商详情页的决策主体。",
+    "cues": [
+      "主图加缩略图图集",
+      "规格与库存信息",
+      "加入购物车或立即购买"
+    ],
+    "boundary": "品牌首页的整段产品叙事不算详情区，归 sec-showcase 或 sec-feature-split；只有价格档位的归 sec-pricing。",
+    "source": [
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "component-button"
+    ],
+    "status": "provisional"
+  }
+]

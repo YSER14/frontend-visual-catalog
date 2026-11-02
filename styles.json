@@ -1,0 +1,547 @@
+[
+  {
+    "id": "minimal",
+    "name": "极简留白",
+    "family": "视觉语言",
+    "aliases": [
+      "Minimalism",
+      "极简主义"
+    ],
+    "definition": "通过少量元素、明确阅读顺序和大留白建立秩序。",
+    "cues": [
+      "少色少装饰",
+      "克制字号与字重",
+      "留白承担分组"
+    ],
+    "boundary": "白底不自动等于极简，要同时观察信息删减与层级。"
+  },
+  {
+    "id": "swiss",
+    "name": "瑞士网格 / 国际主义",
+    "family": "视觉语言",
+    "aliases": [
+      "Swiss",
+      "International Typographic Style"
+    ],
+    "definition": "强调无衬线字体、对齐、模块网格和客观的信息组织。",
+    "cues": [
+      "强对齐线",
+      "清晰网格",
+      "排版承担视觉主体"
+    ],
+    "boundary": "这里收录受此语言影响的网页，不声称是严格的历史流派认证。"
+  },
+  {
+    "id": "editorial",
+    "name": "杂志编辑式",
+    "family": "视觉语言",
+    "aliases": [
+      "Editorial",
+      "Magazine"
+    ],
+    "definition": "借用杂志的标题、导语、图片和多栏节奏组织内容。",
+    "cues": [
+      "衬线或展示标题",
+      "图文主次明确",
+      "栏目与阅读节奏"
+    ],
+    "boundary": "适合内容、作品与文化品牌；不只指新闻网站。"
+  },
+  {
+    "id": "luxury",
+    "name": "高端摄影 / 品牌留白",
+    "family": "视觉语言",
+    "aliases": [
+      "Luxury",
+      "Quiet luxury"
+    ],
+    "definition": "用高质量产品或生活方式摄影、低密度文案与留白传达质感。",
+    "cues": [
+      "大幅摄影",
+      "少量操作",
+      "材质与光线主导"
+    ],
+    "boundary": "价格高不代表符合此方向，分类以页面视觉为依据。"
+  },
+  {
+    "id": "saas",
+    "name": "现代 SaaS / 产品叙事",
+    "family": "视觉语言",
+    "aliases": [
+      "Modern SaaS",
+      "Product-led"
+    ],
+    "definition": "通过价值主张、产品界面与模块化证据解释复杂工具。",
+    "cues": [
+      "标题与主 CTA",
+      "真实界面演示",
+      "功能与案例分段"
+    ],
+    "boundary": "这是商业网页的常见组合语言，不限定产品行业。"
+  },
+  {
+    "id": "dark-tech",
+    "name": "深色科技 / 微光",
+    "family": "视觉语言",
+    "aliases": [
+      "Dark tech",
+      "Glow",
+      "暗色科技"
+    ],
+    "definition": "以深底、细边框、微光或高亮细节形成技术感。",
+    "cues": [
+      "深色多级表面",
+      "局部高亮",
+      "细线与精密细节"
+    ],
+    "boundary": "深色只是底色，需结合材质、层级与品牌表达。"
+  },
+  {
+    "id": "industrial",
+    "name": "工业技术 / 参数化",
+    "family": "视觉语言",
+    "aliases": [
+      "Industrial",
+      "Technical",
+      "工业风"
+    ],
+    "definition": "借用仪器、产品标注和技术资料的字体、网格与参数语言。",
+    "cues": [
+      "等宽或点阵字体",
+      "参数式标注",
+      "紧凑模块与功能感"
+    ],
+    "boundary": "不是所有硬件网站都属于工业风。"
+  },
+  {
+    "id": "illustration",
+    "name": "插画 / 手绘",
+    "family": "视觉语言",
+    "aliases": [
+      "Illustration",
+      "Hand drawn",
+      "Doodle"
+    ],
+    "definition": "让人物、手绘线条或叙事插画承担主要品牌表达。",
+    "cues": [
+      "可辨识插画体系",
+      "非摄影的叙事主体",
+      "带性格的图形"
+    ],
+    "boundary": "偶尔一个图标不足以支持此分类。"
+  },
+  {
+    "id": "pastel",
+    "name": "柔和有机 / 马卡龙",
+    "family": "视觉语言",
+    "aliases": [
+      "Pastel",
+      "Organic",
+      "Soft friendly"
+    ],
+    "definition": "用柔和色调、圆润形状与低压力的表达建立亲近感。",
+    "cues": [
+      "低饱和或温暖配色",
+      "圆润有机图形",
+      "轻松文案与节奏"
+    ],
+    "boundary": "柔和配色不等于新拟态，后者依赖浮雕光影。"
+  },
+  {
+    "id": "neo-brutal",
+    "name": "新粗野主义",
+    "family": "视觉语言",
+    "aliases": [
+      "Neobrutalism",
+      "Neo brutalism"
+    ],
+    "definition": "通过硬边框、硬阴影、直白排版和鲜明色块形成高辨识度。",
+    "cues": [
+      "粗而清晰的边框",
+      "无模糊的偏移阴影",
+      "平面高对比色块"
+    ],
+    "boundary": "与原生网页、低修饰反设计分别收录。"
+  },
+  {
+    "id": "raw-web",
+    "name": "原生网页 / 低修饰",
+    "family": "视觉语言",
+    "aliases": [
+      "Raw web",
+      "Web 1.0",
+      "Anti design",
+      "反设计"
+    ],
+    "definition": "保留原生链接、基础排版和低装饰界面的直白感。",
+    "cues": [
+      "链接与文本优先",
+      "基本 HTML 观感",
+      "少量品牌包装"
+    ],
+    "boundary": "传统实用网站与刻意反设计存在区别；不推断站方的创作意图。"
+  },
+  {
+    "id": "maximal",
+    "name": "极繁 / 拼贴",
+    "family": "视觉语言",
+    "aliases": [
+      "Maximalism",
+      "Collage"
+    ],
+    "definition": "以高视觉密度、异质素材、叠加和强烈个性构成画面。",
+    "cues": [
+      "多层图片与贴纸",
+      "异质字体或素材",
+      "密集且带情绪"
+    ],
+    "boundary": "高密度后台不属于极繁，后者强调视觉表达。"
+  },
+  {
+    "id": "retro-print",
+    "name": "复古印刷 / 怀旧品牌",
+    "family": "视觉语言",
+    "aliases": [
+      "Retro",
+      "Vintage",
+      "Print inspired"
+    ],
+    "definition": "借用旧包装、印刷字体和怀旧配色形成当代品牌语言。",
+    "cues": [
+      "复古展示字",
+      "包装或印刷感",
+      "暖色与怀旧插画"
+    ],
+    "boundary": "与复古电脑界面、像素游戏分别收录。"
+  },
+  {
+    "id": "cyber",
+    "name": "霓虹赛博 / HUD",
+    "family": "视觉语言",
+    "aliases": [
+      "Cyberpunk",
+      "HUD",
+      "Sci fi",
+      "科幻"
+    ],
+    "definition": "用发光线框、切角面板、终端信息和未来界面营造科幻感。",
+    "cues": [
+      "霓虹线框",
+      "切角或扫描式结构",
+      "仪表信息与动态细节"
+    ],
+    "boundary": "与 Y2K 金属千禧风分别收录；科幻 HUD 强调仪表、线框和状态反馈。"
+  },
+  {
+    "id": "pixel",
+    "name": "像素 / 8-bit",
+    "family": "视觉语言",
+    "aliases": [
+      "Pixel",
+      "8-bit",
+      "像素风"
+    ],
+    "definition": "把像素字体、阶梯边缘与游戏式组件用于界面本身。",
+    "cues": [
+      "点阵字或像素边框",
+      "有限色阶",
+      "游戏式界面控件"
+    ],
+    "boundary": "仅展示像素画的普通画廊不自动属于像素 UI。"
+  },
+  {
+    "id": "terminal",
+    "name": "终端 / ASCII / CRT",
+    "family": "视觉语言",
+    "aliases": [
+      "Terminal",
+      "ASCII",
+      "TUI",
+      "CRT"
+    ],
+    "definition": "用等宽文本、命令行和字符式界面建立开发者或复古计算机气质。",
+    "cues": [
+      "等宽文本为主体",
+      "命令提示与文本框线",
+      "终端配色或扫描线"
+    ],
+    "boundary": "代码块只是配角的普通文档不属于终端风。"
+  },
+  {
+    "id": "glass",
+    "name": "玻璃拟态",
+    "family": "材质",
+    "aliases": [
+      "Glassmorphism",
+      "Frosted glass",
+      "毛玻璃"
+    ],
+    "definition": "通过半透明面板、背景模糊与明暗边缘表现玻璃层次。",
+    "cues": [
+      "透出背景",
+      "模糊与透明度",
+      "细亮边与层叠"
+    ],
+    "boundary": "Liquid Glass 的折射与动态材质不等同于普通毛玻璃。"
+  },
+  {
+    "id": "neumorph",
+    "name": "新拟态 / 柔和浮雕",
+    "family": "材质",
+    "aliases": [
+      "Neumorphism",
+      "Soft UI"
+    ],
+    "definition": "用同色表面上的成对明暗阴影表达凸起与凹陷。",
+    "cues": [
+      "表面与背景同色系",
+      "双向柔和阴影",
+      "低对比的凸凹关系"
+    ],
+    "boundary": "普通圆角加阴影并不足以判为新拟态；需留意可读性。"
+  },
+  {
+    "id": "skeuo",
+    "name": "拟物 / 复古桌面",
+    "family": "材质",
+    "aliases": [
+      "Skeuomorphism",
+      "Retro desktop",
+      "Windows 98",
+      "经典桌面"
+    ],
+    "definition": "借用现实物体或历史操作系统的控件、窗口和材质隐喻。",
+    "cues": [
+      "立体按钮与窗口镶边",
+      "桌面与设备隐喻",
+      "历史界面细节"
+    ],
+    "boundary": "这是网页中的界面复刻，不表示这些历史系统仍是主流产品风格。"
+  },
+  {
+    "id": "material",
+    "name": "Material 设计语言",
+    "family": "设计系统",
+    "aliases": [
+      "Material Design",
+      "Material 3",
+      "Material You"
+    ],
+    "definition": "以 Material 的组件形状、主题色、状态与层级组织界面。",
+    "cues": [
+      "可辨识 Material 控件",
+      "系统化主题色",
+      "状态与层级规范"
+    ],
+    "boundary": "优先参考官方组件与演示，不把所有扁平设计都归入 Material。"
+  },
+  {
+    "id": "enterprise",
+    "name": "企业中性 / 高密度界面",
+    "family": "设计系统",
+    "aliases": [
+      "Enterprise UI",
+      "Dashboard",
+      "Admin",
+      "中后台"
+    ],
+    "definition": "以紧凑信息、稳定中性色和明确组件状态支持高频工作。",
+    "cues": [
+      "表格与工具条",
+      "紧凑间距和明确分组",
+      "语义色与一致控件"
+    ],
+    "boundary": "收录可直接打开的后台演示，营销页不代替真实界面。"
+  },
+  {
+    "id": "bento",
+    "name": "Bento / 卡片模块",
+    "family": "版式与交互",
+    "aliases": [
+      "Bento grid",
+      "Card grid",
+      "便当盒"
+    ],
+    "definition": "通过大小不一、边界明确的卡片模块组织多个信息单元。",
+    "cues": [
+      "不同跨度的卡片",
+      "模块内自成层级",
+      "整体遵循网格"
+    ],
+    "boundary": "Bento 是版式模式，可与极简、玻璃和深色科技组合。"
+  },
+  {
+    "id": "immersive",
+    "name": "3D / 沉浸场景",
+    "family": "版式与交互",
+    "aliases": [
+      "3D",
+      "Immersive",
+      "WebGL",
+      "沉浸式"
+    ],
+    "definition": "让空间场景、实时图形或可探索世界成为主要浏览载体。",
+    "cues": [
+      "三维空间为主体",
+      "交互影响场景",
+      "画面与导航结合"
+    ],
+    "boundary": "一张 3D 插图与可交互沉浸世界不是同一种体验，个案说明应区分。"
+  },
+  {
+    "id": "kinetic",
+    "name": "大字 / 动态排版",
+    "family": "版式与交互",
+    "aliases": [
+      "Kinetic typography",
+      "Big type",
+      "Scroll storytelling",
+      "滚动叙事"
+    ],
+    "definition": "让夸张字号、文字运动和滚动节奏成为主要视觉表达。",
+    "cues": [
+      "文字占据大面积",
+      "字号与字形强对比",
+      "节奏化转场或滚动"
+    ],
+    "boundary": "静态截图能观察尺度与布局，动效本身仍要访问原站。"
+  },
+  {
+    "id": "liquid-glass",
+    "name": "液态玻璃 / 折射",
+    "family": "材质",
+    "aliases": [
+      "Liquid Glass",
+      "Refraction"
+    ],
+    "definition": "在透明层上用边缘高光、折射或形变模拟更接近透镜的材质。",
+    "cues": [
+      "边缘折射",
+      "背景形变",
+      "透明透镜高光"
+    ],
+    "boundary": "这里是第三方 Web 演示，不声称等同于 Apple 原生材质；静态图无法体现全部动态。"
+  },
+  {
+    "id": "clay",
+    "name": "黏土 / 膨胀软体",
+    "family": "材质",
+    "aliases": [
+      "Claymorphism",
+      "Clay",
+      "Puffy"
+    ],
+    "definition": "用膨胀轮廓、厚实圆角、内部光影和柔软色彩表现黏土般体积。",
+    "cues": [
+      "充气般的形状",
+      "内阴影与厚实圆角",
+      "柔和体积感"
+    ],
+    "boundary": "与同背景浮雕的新拟态分别收录；生产环境少见纯 claymorphism UI，真实站点样本取「软塑 3D 角色 / 场景」，演示与工具作为对照。"
+  },
+  {
+    "id": "chinese",
+    "name": "中式传统 / 文博",
+    "family": "视觉语言",
+    "aliases": [
+      "Chinese traditional",
+      "国风",
+      "中式",
+      "文博"
+    ],
+    "definition": "将传统色、纹样、书法、文物或卷轴式视觉用于网页表达。",
+    "cues": [
+      "传统色与纹样",
+      "书法或文物视觉",
+      "文化叙事与留白"
+    ],
+    "boundary": "只覆盖传统文博方向，不把所有中文网站归为国风，也不代表所有国潮子风格。"
+  },
+  {
+    "id": "y2k",
+    "name": "Y2K / 千禧复古未来",
+    "family": "视觉语言",
+    "aliases": [
+      "Y2K",
+      "Chrome",
+      "Iridescent",
+      "千禧"
+    ],
+    "definition": "借用千禧年代的金属、虹彩、星形和数码流行视觉建立复古未来感。",
+    "cues": [
+      "金属或虹彩效果",
+      "星形与数码装饰",
+      "复古未来的字形配色"
+    ],
+    "boundary": "与 CRT 终端、90 年代桌面和赛博 HUD 分开；演示只能说明视觉方法。"
+  },
+  {
+    "id": "fluent",
+    "name": "Fluent 设计语言",
+    "family": "设计系统",
+    "aliases": [
+      "Fluent UI",
+      "Fluent 2",
+      "Microsoft Fluent"
+    ],
+    "definition": "以微软 Fluent 的组件、排版、层级和状态系统组织工作型界面。",
+    "cues": [
+      "官方 Fluent 组件",
+      "克制的表面与层级",
+      "一致的状态和交互"
+    ],
+    "boundary": "以官方规范与组件为参考，不把普通蓝色后台直接称为 Fluent。"
+  },
+  {
+    "id": "bauhaus",
+    "name": "Bauhaus / 几何原色",
+    "family": "视觉语言",
+    "aliases": [
+      "Bauhaus",
+      "包豪斯",
+      "Geometric primary"
+    ],
+    "definition": "借用原色、圆形方形三角形、非对称平衡与结构网格表达几何秩序。",
+    "cues": [
+      "红黄蓝等原色",
+      "明确的基本几何",
+      "非对称的结构平衡"
+    ],
+    "boundary": "这里是受到包豪斯影响的网页表达，不是历史学认证。"
+  },
+  {
+    "id": "memphis",
+    "name": "Memphis / 波普几何",
+    "family": "视觉语言",
+    "aliases": [
+      "Memphis",
+      "孟菲斯",
+      "Squiggle"
+    ],
+    "definition": "用活泼的几何拼块、波浪、点阵和撞色建立装饰性与玩心。",
+    "cues": [
+      "几何拼块与波浪",
+      "多色或粉彩撞色",
+      "装饰纹样与不规则组合"
+    ],
+    "boundary": "与地名 Memphis 和泛指企业人物插画的 Corporate Memphis 分开。"
+  },
+  {
+    "id": "sketch",
+    "name": "手绘草图 / 线框",
+    "family": "视觉语言",
+    "aliases": [
+      "Sketch",
+      "Hand drawn UI",
+      "Wireframe",
+      "Rough"
+    ],
+    "definition": "让不规则线条、手写标注和草图式控件成为界面的主要语言。",
+    "cues": [
+      "不完全规则的线条",
+      "手绘边框与标记",
+      "草图或线框观感"
+    ],
+    "boundary": "区别于只有人物插画的品牌页；样本展示界面线条本身。"
+  }
+]

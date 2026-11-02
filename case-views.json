@@ -1,0 +1,2436 @@
+[
+  {
+    "id": "01-linear-inner",
+    "caseId": "01-linear",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://linear.app/pricing",
+    "finalUrl": "https://linear.app/pricing",
+    "title": "Pricing – Linear",
+    "status": 200,
+    "screenshot": "views/01-linear-inner.jpg",
+    "capturedAt": "2026-10-25T14:27:51.694Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 2617,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "02-stripe-mobile",
+    "caseId": "02-stripe",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://stripe.com/",
+    "finalUrl": "https://stripe.com/jp",
+    "title": "Stripe | 収益向上のための金融インフラ",
+    "status": 200,
+    "screenshot": "views/02-stripe-mobile.jpg",
+    "capturedAt": "2026-10-25T14:27:46.812Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6886
+  },
+  {
+    "id": "02-stripe-inner",
+    "caseId": "02-stripe",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://stripe.com/jp/pricing",
+    "finalUrl": "https://stripe.com/jp/pricing",
+    "title": "料金体系 & 手数料 | Stripe",
+    "status": 200,
+    "screenshot": "views/02-stripe-inner.jpg",
+    "capturedAt": "2026-10-25T14:27:51.091Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 15379,
+    "linkText": "料金体系"
+  },
+  {
+    "id": "03-raycast-mobile",
+    "caseId": "03-raycast",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.raycast.com/",
+    "finalUrl": "https://www.raycast.com/",
+    "title": "Raycast - Your shortcut to everything",
+    "status": 200,
+    "screenshot": "views/03-raycast-mobile.jpg",
+    "capturedAt": "2026-10-25T14:28:01.988Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 7775
+  },
+  {
+    "id": "04-framer-mobile",
+    "caseId": "04-framer",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.framer.com/",
+    "finalUrl": "https://www.framer.com/",
+    "title": "Framer: Free website builder and AI design agent",
+    "status": 200,
+    "screenshot": "views/04-framer-mobile.jpg",
+    "capturedAt": "2026-10-25T14:27:59.120Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3024
+  },
+  {
+    "id": "04-framer-inner",
+    "caseId": "04-framer",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.framer.com/pricing",
+    "finalUrl": "https://www.framer.com/pricing",
+    "title": "Framer: Pricing",
+    "status": 200,
+    "screenshot": "views/04-framer-inner.jpg",
+    "capturedAt": "2026-10-25T14:28:04.418Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 8682,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "05-notion-mobile",
+    "caseId": "05-notion",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.notion.com/",
+    "finalUrl": "https://www.notion.com/",
+    "title": "The AI workspace that works for you. | Notion",
+    "status": 200,
+    "screenshot": "views/05-notion-mobile.jpg",
+    "capturedAt": "2026-10-25T14:28:19.496Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2024
+  },
+  {
+    "id": "05-notion-inner",
+    "caseId": "05-notion",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.notion.com/product/features",
+    "finalUrl": "https://www.notion.com/product/features",
+    "title": "Notion features—Capture, find, automate | Notion",
+    "status": 200,
+    "screenshot": "views/05-notion-inner.jpg",
+    "capturedAt": "2026-10-25T14:28:27.376Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 3811,
+    "linkText": "See all features→"
+  },
+  {
+    "id": "07-things-mobile",
+    "caseId": "07-things",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://culturedcode.com/things/",
+    "finalUrl": "https://culturedcode.com/things/",
+    "title": "Things - To-Do List App for Mac & iOS",
+    "status": 200,
+    "screenshot": "views/07-things-mobile.jpg",
+    "capturedAt": "2026-10-25T14:28:36.702Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6949
+  },
+  {
+    "id": "07-things-inner",
+    "caseId": "07-things",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://culturedcode.com/things/features/",
+    "finalUrl": "https://culturedcode.com/things/features/",
+    "title": "What’s New in the all-new Things. Your to-do list for Mac & iOS",
+    "status": 200,
+    "screenshot": "views/07-things-inner.jpg",
+    "capturedAt": "2026-10-25T14:28:42.572Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 16286,
+    "linkText": "Features"
+  },
+  {
+    "id": "08-webflow-mobile",
+    "caseId": "08-webflow",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://webflow.com/",
+    "finalUrl": "https://webflow.com/",
+    "title": "Webflow: The agentic web platform for modern businesses",
+    "status": null,
+    "screenshot": "views/08-webflow-mobile.jpg",
+    "capturedAt": "2026-10-25T14:28:52.274Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3240
+  },
+  {
+    "id": "09-vercel-mobile",
+    "caseId": "09-vercel",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://vercel.com/",
+    "finalUrl": "https://vercel.com/",
+    "title": "Agentic Infrastructure - Vercel",
+    "status": 200,
+    "screenshot": "views/09-vercel-mobile.jpg",
+    "capturedAt": "2026-10-25T14:29:01.864Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 587
+  },
+  {
+    "id": "09-vercel-state",
+    "caseId": "09-vercel",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://vercel.com/",
+    "finalUrl": "https://vercel.com/",
+    "title": "Agentic Infrastructure - Vercel",
+    "status": 200,
+    "screenshot": "views/09-vercel-state.jpg",
+    "capturedAt": "2026-10-25T14:29:32.361Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 651,
+    "interaction": "点击导航按钮：Open menu"
+  },
+  {
+    "id": "09-vercel-inner",
+    "caseId": "09-vercel",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://vercel.com/about",
+    "finalUrl": "https://vercel.com/about",
+    "title": "About Us",
+    "status": 200,
+    "screenshot": "views/09-vercel-inner.jpg",
+    "capturedAt": "2026-10-25T14:29:37.511Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 1450,
+    "linkText": "About"
+  },
+  {
+    "id": "10-supabase-mobile",
+    "caseId": "10-supabase",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://supabase.com/",
+    "finalUrl": "https://supabase.com/",
+    "title": "Supabase | The Postgres Development Platform",
+    "status": 200,
+    "screenshot": "views/10-supabase-mobile.jpg",
+    "capturedAt": "2026-10-25T14:29:03.118Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6505
+  },
+  {
+    "id": "10-supabase-state",
+    "caseId": "10-supabase",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://supabase.com/",
+    "finalUrl": "https://supabase.com/",
+    "title": "Supabase | The Postgres Development Platform",
+    "status": 200,
+    "screenshot": "views/10-supabase-state.jpg",
+    "capturedAt": "2026-10-25T14:29:03.643Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6590,
+    "interaction": "点击导航按钮：Open main menu"
+  },
+  {
+    "id": "10-supabase-inner",
+    "caseId": "10-supabase",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://supabase.com/pricing",
+    "finalUrl": "https://supabase.com/pricing",
+    "title": "Pricing & Fees | Supabase",
+    "status": 200,
+    "screenshot": "views/10-supabase-inner.jpg",
+    "capturedAt": "2026-10-25T14:29:07.221Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 13891,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "11-resend-mobile",
+    "caseId": "11-resend",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://resend.com/",
+    "finalUrl": "https://resend.com/",
+    "title": "Resend · Email for developers",
+    "status": 200,
+    "screenshot": "views/11-resend-mobile.jpg",
+    "capturedAt": "2026-10-25T14:29:47.425Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 12119
+  },
+  {
+    "id": "11-resend-inner",
+    "caseId": "11-resend",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://resend.com/pricing",
+    "finalUrl": "https://resend.com/pricing",
+    "title": "Pricing · Resend",
+    "status": 200,
+    "screenshot": "views/11-resend-inner.jpg",
+    "capturedAt": "2026-10-25T14:29:58.428Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 12028,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "12-clerk-mobile",
+    "caseId": "12-clerk",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://clerk.com/",
+    "finalUrl": "https://clerk.com/",
+    "title": "Clerk | Authentication and User Management",
+    "status": 200,
+    "screenshot": "views/12-clerk-mobile.jpg",
+    "capturedAt": "2026-10-25T14:29:47.147Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 8997
+  },
+  {
+    "id": "12-clerk-state",
+    "caseId": "12-clerk",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://clerk.com/",
+    "finalUrl": "https://clerk.com/",
+    "title": "Clerk | Authentication and User Management",
+    "status": 200,
+    "screenshot": "views/12-clerk-state.jpg",
+    "capturedAt": "2026-10-25T14:30:17.650Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 9040,
+    "interaction": "点击导航按钮：Open navigation"
+  },
+  {
+    "id": "12-clerk-inner",
+    "caseId": "12-clerk",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://clerk.com/pricing",
+    "finalUrl": "https://clerk.com/pricing",
+    "title": "Pricing — Free Up to 50K Users | Plans from $0/mo",
+    "status": 200,
+    "screenshot": "views/12-clerk-inner.jpg",
+    "capturedAt": "2026-10-25T14:30:23.320Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 14264,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "13-neon-mobile",
+    "caseId": "13-neon",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://neon.com/",
+    "finalUrl": "https://neon.com/",
+    "title": "Neon — Postgres backends for apps and agents",
+    "status": 200,
+    "screenshot": "views/13-neon-mobile.jpg",
+    "capturedAt": "2026-10-25T14:30:34.585Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 4221
+  },
+  {
+    "id": "13-neon-state",
+    "caseId": "13-neon",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://neon.com/",
+    "finalUrl": "https://neon.com/",
+    "title": "Neon — Postgres backends for apps and agents",
+    "status": 200,
+    "screenshot": "views/13-neon-state.jpg",
+    "capturedAt": "2026-10-25T14:31:05.080Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 4285,
+    "interaction": "点击导航按钮：Open menu"
+  },
+  {
+    "id": "13-neon-inner",
+    "caseId": "13-neon",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://neon.com/pricing",
+    "finalUrl": "https://neon.com/pricing",
+    "title": "Pricing — Neon",
+    "status": 200,
+    "screenshot": "views/13-neon-inner.jpg",
+    "capturedAt": "2026-10-25T14:31:09.766Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 20586,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "14-railway-mobile",
+    "caseId": "14-railway",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://railway.com/",
+    "finalUrl": "https://railway.com/",
+    "title": "Railway | The all-in-one intelligent cloud provider",
+    "status": 200,
+    "screenshot": "views/14-railway-mobile.jpg",
+    "capturedAt": "2026-10-25T14:30:31.829Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 89
+  },
+  {
+    "id": "14-railway-inner",
+    "caseId": "14-railway",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://railway.com/pricing",
+    "finalUrl": "https://railway.com/pricing",
+    "title": "Pricing | Railway",
+    "status": 200,
+    "screenshot": "views/14-railway-inner.jpg",
+    "capturedAt": "2026-10-25T14:30:37.405Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 9655,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "17-instrument-mobile",
+    "caseId": "17-instrument",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.instrument.com/",
+    "finalUrl": "https://www.instrument.com/",
+    "title": "Instrument | A technology-led brand, product, & marketing agency | Instrument",
+    "status": 200,
+    "screenshot": "views/17-instrument-mobile.jpg",
+    "capturedAt": "2026-10-25T14:31:25.851Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2649
+  },
+  {
+    "id": "17-instrument-state",
+    "caseId": "17-instrument",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://www.instrument.com/",
+    "finalUrl": "https://www.instrument.com/",
+    "title": "Instrument | A technology-led brand, product, & marketing agency | Instrument",
+    "status": 200,
+    "screenshot": "views/17-instrument-state.jpg",
+    "capturedAt": "2026-10-25T14:31:56.301Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2749,
+    "interaction": "点击导航按钮：Open Menu"
+  },
+  {
+    "id": "17-instrument-inner",
+    "caseId": "17-instrument",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.instrument.com/about/",
+    "finalUrl": "https://www.instrument.com/about/",
+    "title": "About Instrument | Design and Technology Agency | Instrument",
+    "status": 200,
+    "screenshot": "views/17-instrument-inner.jpg",
+    "capturedAt": "2026-10-25T14:32:01.269Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 2865,
+    "linkText": "About"
+  },
+  {
+    "id": "18-obys-mobile",
+    "caseId": "18-obys",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://obys.agency/",
+    "finalUrl": "https://obys.agency/",
+    "title": "Obys Agency",
+    "status": 200,
+    "screenshot": "views/18-obys-mobile.jpg",
+    "capturedAt": "2026-10-25T15:14:04.359Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 6941,
+    "reviewNote": "等待动画或文档预览加载后重拍"
+  },
+  {
+    "id": "18-obys-inner",
+    "caseId": "18-obys",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://obys.agency/about/",
+    "finalUrl": "https://obys.agency/about/",
+    "title": "404 — Obys Agency",
+    "status": null,
+    "screenshot": "views/18-obys-inner.jpg",
+    "capturedAt": "2026-10-25T15:14:18.238Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": false,
+    "reviewNote": "等待实际页面完成后重拍；本次未单独记录 HTTP 状态"
+  },
+  {
+    "id": "19-unseen-mobile",
+    "caseId": "19-unseen",
+    "kind": "mobile",
+    "label": "手机体验入口",
+    "requestedUrl": "https://unseen.co/",
+    "finalUrl": "https://unseen.co/",
+    "title": "Unseen Studio® – Brand, Digital & Motion",
+    "status": 200,
+    "screenshot": "views/19-unseen-mobile.jpg",
+    "capturedAt": "2026-10-25T15:14:48.456Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 624,
+    "reviewNote": "等待动画或文档预览加载后重拍"
+  },
+  {
+    "id": "20-studio-freight-mobile",
+    "caseId": "20-studio-freight",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.studiofreight.com/",
+    "finalUrl": "https://studiofreight.com/",
+    "title": "Studio Freight",
+    "status": 200,
+    "screenshot": "views/20-studio-freight-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:10.517Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 107
+  },
+  {
+    "id": "20-studio-freight-inner",
+    "caseId": "20-studio-freight",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://studiofreight.com/work/",
+    "finalUrl": "https://studiofreight.com/work/",
+    "title": "Work | Studio Freight",
+    "status": 200,
+    "screenshot": "views/20-studio-freight-inner.jpg",
+    "capturedAt": "2026-10-25T14:32:15.583Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 672,
+    "linkText": "Work"
+  },
+  {
+    "id": "22-brittany-chiang-mobile",
+    "caseId": "22-brittany-chiang",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://brittanychiang.com/",
+    "finalUrl": "https://brittanychiang.com/",
+    "title": "Brittany Chiang",
+    "status": 200,
+    "screenshot": "views/22-brittany-chiang-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:24.051Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 4319
+  },
+  {
+    "id": "22-brittany-chiang-section",
+    "caseId": "22-brittany-chiang",
+    "kind": "section",
+    "label": "首页内容区",
+    "requestedUrl": "https://brittanychiang.com/",
+    "finalUrl": "https://brittanychiang.com/",
+    "title": "Brittany Chiang",
+    "status": 200,
+    "screenshot": "views/22-brittany-chiang-section.jpg",
+    "capturedAt": "2026-10-25T14:32:28.749Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4345,
+    "scrollY": 850
+  },
+  {
+    "id": "23-rauno-mobile",
+    "caseId": "23-rauno",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://rauno.me/",
+    "finalUrl": "https://rauno.me/",
+    "title": "Rauno Freiberg",
+    "status": 200,
+    "screenshot": "views/23-rauno-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:34.076Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 339
+  },
+  {
+    "id": "24-paco-mobile",
+    "caseId": "24-paco",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://paco.me/",
+    "finalUrl": "https://paco.me/",
+    "title": "Paco Coursey",
+    "status": 200,
+    "screenshot": "views/24-paco-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:33.960Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1276
+  },
+  {
+    "id": "25-lee-robinson-mobile",
+    "caseId": "25-lee-robinson",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://leerob.com/",
+    "finalUrl": "https://leerob.com/",
+    "title": "Lee Robinson",
+    "status": 200,
+    "screenshot": "views/25-lee-robinson-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:38.887Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1021
+  },
+  {
+    "id": "25-lee-robinson-inner",
+    "caseId": "25-lee-robinson",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://leerob.com/devtools",
+    "finalUrl": "https://leerob.com/devtools",
+    "title": "On Developer Products | Lee Robinson",
+    "status": 200,
+    "screenshot": "views/25-lee-robinson-inner.jpg",
+    "capturedAt": "2026-10-25T14:32:42.211Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 2677,
+    "linkText": "Developer products"
+  },
+  {
+    "id": "26-apple-mobile",
+    "caseId": "26-apple",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.apple.com/",
+    "finalUrl": "https://www.apple.com/",
+    "title": "Apple",
+    "status": 200,
+    "screenshot": "views/26-apple-mobile.jpg",
+    "capturedAt": "2026-10-25T14:32:39.759Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 73129
+  },
+  {
+    "id": "26-apple-inner",
+    "caseId": "26-apple",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.apple.com/business/",
+    "finalUrl": "https://www.apple.com/business/",
+    "title": "Apple at Work - Apple",
+    "status": 200,
+    "screenshot": "views/26-apple-inner.jpg",
+    "capturedAt": "2026-10-25T14:33:17.455Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 10430,
+    "linkText": "Apple at Work"
+  },
+  {
+    "id": "27-nothing-mobile",
+    "caseId": "27-nothing",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://nothing.tech/",
+    "finalUrl": "https://nothing.tech/",
+    "title": "Nothing | UK",
+    "status": 200,
+    "screenshot": "views/27-nothing-mobile.jpg",
+    "capturedAt": "2026-10-26T06:47:54.996Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 743,
+    "reviewNote": "选择并确认地区后拍摄首页"
+  },
+  {
+    "id": "28-bang-olufsen-mobile",
+    "caseId": "28-bang-olufsen",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.bang-olufsen.com/ja/jp",
+    "finalUrl": "https://www.bang-olufsen.com/ja/jp",
+    "title": "Bang & Olufsen（B&O）日本公式 - サウンドとデザインが融合するプレミアムオーディオ｜Bang & Olufsen 公式ストア",
+    "status": 200,
+    "screenshot": "views/28-bang-olufsen-mobile.jpg",
+    "capturedAt": "2026-10-26T06:45:58.262Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 1291,
+    "reviewNote": "关闭地区入口或拒绝非必要 Cookie 后复核截图"
+  },
+  {
+    "id": "29-teenage-engineering-mobile",
+    "caseId": "29-teenage-engineering",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://teenage.engineering/",
+    "finalUrl": "https://teenage.engineering/",
+    "title": "teenage engineering",
+    "status": 200,
+    "screenshot": "views/29-teenage-engineering-mobile.jpg",
+    "capturedAt": "2026-10-25T14:33:51.439Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1179
+  },
+  {
+    "id": "29-teenage-engineering-state",
+    "caseId": "29-teenage-engineering",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://teenage.engineering/",
+    "finalUrl": "https://teenage.engineering/",
+    "title": "teenage engineering",
+    "status": 200,
+    "screenshot": "views/29-teenage-engineering-state.jpg",
+    "capturedAt": "2026-10-25T14:33:51.901Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2299,
+    "interaction": "点击导航按钮：menu"
+  },
+  {
+    "id": "30-dji-mobile",
+    "caseId": "30-dji",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.dji.com/cn",
+    "finalUrl": "https://www.dji.com/cn",
+    "title": "DJI 大疆创新 - 官方网站",
+    "status": 200,
+    "screenshot": "views/30-dji-mobile.jpg",
+    "capturedAt": "2026-10-25T14:33:52.992Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2091
+  },
+  {
+    "id": "30-dji-inner",
+    "caseId": "30-dji",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.dji.com/cn/flyingtips?site=brandsite&from=footer",
+    "finalUrl": "https://www.dji.com/cn/flyingtips?site=brandsite&from=footer",
+    "title": "大疆飞行指南 - DJI 大疆创新",
+    "status": 200,
+    "screenshot": "views/30-dji-inner.jpg",
+    "capturedAt": "2026-10-25T14:33:56.923Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 952,
+    "linkText": "大疆飞行指南"
+  },
+  {
+    "id": "32-pudding-mobile",
+    "caseId": "32-pudding",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://pudding.cool/",
+    "finalUrl": "https://pudding.cool/",
+    "title": "The Pudding",
+    "status": 200,
+    "screenshot": "views/32-pudding-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:05.726Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3588
+  },
+  {
+    "id": "32-pudding-state",
+    "caseId": "32-pudding",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://pudding.cool/",
+    "finalUrl": "https://pudding.cool/",
+    "title": "The Pudding",
+    "status": 200,
+    "screenshot": "views/32-pudding-state.jpg",
+    "capturedAt": "2026-10-25T14:34:06.158Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3680,
+    "interaction": "点击导航按钮：open menu"
+  },
+  {
+    "id": "32-pudding-inner",
+    "caseId": "32-pudding",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://pudding.cool/about",
+    "finalUrl": "https://pudding.cool/about/",
+    "title": "About Us",
+    "status": 200,
+    "screenshot": "views/32-pudding-inner.jpg",
+    "capturedAt": "2026-10-25T14:34:11.303Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4098,
+    "linkText": ""
+  },
+  {
+    "id": "33-works-in-progress-mobile",
+    "caseId": "33-works-in-progress",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://worksinprogress.co/",
+    "finalUrl": "https://worksinprogress.co/",
+    "title": "Works in Progress Magazine",
+    "status": 200,
+    "screenshot": "views/33-works-in-progress-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:21.671Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 54650
+  },
+  {
+    "id": "33-works-in-progress-state",
+    "caseId": "33-works-in-progress",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://worksinprogress.co/",
+    "finalUrl": "https://worksinprogress.co/",
+    "title": "Works in Progress Magazine",
+    "status": 200,
+    "screenshot": "views/33-works-in-progress-state.jpg",
+    "capturedAt": "2026-10-25T14:34:23.227Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 55005,
+    "interaction": "点击导航按钮：Toggle menu"
+  },
+  {
+    "id": "33-works-in-progress-inner",
+    "caseId": "33-works-in-progress",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://worksinprogress.co/about/",
+    "finalUrl": "https://worksinprogress.co/about/",
+    "title": "About - Works in Progress Magazine",
+    "status": 200,
+    "screenshot": "views/33-works-in-progress-inner.jpg",
+    "capturedAt": "2026-10-25T14:34:26.671Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 5888,
+    "linkText": "About"
+  },
+  {
+    "id": "34-pentagram-mobile",
+    "caseId": "34-pentagram",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.pentagram.com/",
+    "finalUrl": "https://www.pentagram.com/",
+    "title": "Pentagram — The world’s largest independent design consultancy",
+    "status": 200,
+    "screenshot": "views/34-pentagram-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:19.760Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 18543
+  },
+  {
+    "id": "34-pentagram-state",
+    "caseId": "34-pentagram",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://www.pentagram.com/",
+    "finalUrl": "https://www.pentagram.com/",
+    "title": "Pentagram — The world’s largest independent design consultancy",
+    "status": 200,
+    "screenshot": "views/34-pentagram-state.jpg",
+    "capturedAt": "2026-10-25T14:34:20.255Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 18683,
+    "interaction": "点击导航按钮：Toggle menu"
+  },
+  {
+    "id": "34-pentagram-inner",
+    "caseId": "34-pentagram",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.pentagram.com/about",
+    "finalUrl": "https://www.pentagram.com/about",
+    "title": "About",
+    "status": 200,
+    "screenshot": "views/34-pentagram-inner.jpg",
+    "capturedAt": "2026-10-25T14:34:26.173Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 3676,
+    "linkText": "About"
+  },
+  {
+    "id": "35-monocle-mobile",
+    "caseId": "35-monocle",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://monocle.com/",
+    "finalUrl": "https://monocle.com/",
+    "title": "Monocle - global affairs, culture and design",
+    "status": 200,
+    "screenshot": "views/35-monocle-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:41.585Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 10055
+  },
+  {
+    "id": "35-monocle-state",
+    "caseId": "35-monocle",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://monocle.com/",
+    "finalUrl": "https://monocle.com/",
+    "title": "Monocle - global affairs, culture and design",
+    "status": 200,
+    "screenshot": "views/35-monocle-state.jpg",
+    "capturedAt": "2026-10-25T14:34:42.168Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 10241,
+    "interaction": "点击导航按钮：Toggle Main Navigation"
+  },
+  {
+    "id": "35-monocle-inner",
+    "caseId": "35-monocle",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://monocle.com/travel-guides/",
+    "finalUrl": "https://monocle.com/travel-guides/",
+    "title": "City Guides | In-depth travel guides from locals",
+    "status": 200,
+    "screenshot": "views/35-monocle-inner.jpg",
+    "capturedAt": "2026-10-26T06:46:17.869Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": false,
+    "textLength": 2032,
+    "linkText": "City guides",
+    "reviewNote": "关闭地区入口或拒绝非必要 Cookie 后复核截图"
+  },
+  {
+    "id": "36-vue-mobile",
+    "caseId": "36-vue",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://cn.vuejs.org/",
+    "finalUrl": "https://cn.vuejs.org/",
+    "title": "Vue.js - 渐进式 JavaScript 框架 | Vue.js",
+    "status": 200,
+    "screenshot": "views/36-vue-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:34.778Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 653
+  },
+  {
+    "id": "36-vue-inner",
+    "caseId": "36-vue",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://cn.vuejs.org/guide/quick-start.html",
+    "finalUrl": "https://cn.vuejs.org/guide/quick-start",
+    "title": "快速上手 | Vue.js",
+    "status": 200,
+    "screenshot": "views/36-vue-inner.jpg",
+    "capturedAt": "2026-10-25T14:34:38.712Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 5737,
+    "linkText": "快速上手"
+  },
+  {
+    "id": "37-vite-mobile",
+    "caseId": "37-vite",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://cn.vite.dev/",
+    "finalUrl": "https://cn.vite.dev/",
+    "title": "Vite | 下一代的前端工具链",
+    "status": 200,
+    "screenshot": "views/37-vite-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:57.248Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2141
+  },
+  {
+    "id": "37-vite-inner",
+    "caseId": "37-vite",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://cn.vite.dev/guide/",
+    "finalUrl": "https://cn.vite.dev/guide/",
+    "title": "开始 | Vite 官方中文文档",
+    "status": 200,
+    "screenshot": "views/37-vite-inner.jpg",
+    "capturedAt": "2026-10-25T14:35:01.361Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4209,
+    "linkText": "指引"
+  },
+  {
+    "id": "38-ant-design-mobile",
+    "caseId": "38-ant-design",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://ant.design/index-cn",
+    "finalUrl": "https://ant.design/index-cn/",
+    "title": "Ant Design - 一套企业级 UI 设计语言和 React 组件库",
+    "status": 200,
+    "screenshot": "views/38-ant-design-mobile.jpg",
+    "capturedAt": "2026-10-25T14:34:58.370Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1387
+  },
+  {
+    "id": "38-ant-design-inner",
+    "caseId": "38-ant-design",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://ant.design/docs/spec/introduce-cn",
+    "finalUrl": "https://ant.design/docs/spec/introduce-cn",
+    "title": "介绍 - Ant Design",
+    "status": 200,
+    "screenshot": "views/38-ant-design-inner.jpg",
+    "capturedAt": "2026-10-25T14:35:05.694Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 1969,
+    "linkText": "设计"
+  },
+  {
+    "id": "39-arco-mobile",
+    "caseId": "39-arco",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://arco.design/",
+    "finalUrl": "https://arco.design/",
+    "title": "Arco Design - 企业级产品的完整设计和开发解决方案",
+    "status": 200,
+    "screenshot": "views/39-arco-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:14.940Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1494
+  },
+  {
+    "id": "39-arco-inner",
+    "caseId": "39-arco",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://arco.design/docs/spec/style-guideline",
+    "finalUrl": "https://arco.design/docs/spec/style-guideline",
+    "title": "样式指南 | ArcoDesign",
+    "status": 200,
+    "screenshot": "views/39-arco-inner.jpg",
+    "capturedAt": "2026-10-25T14:35:20.245Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 3594,
+    "linkText": "样式指南"
+  },
+  {
+    "id": "40-naive-mobile",
+    "caseId": "40-naive",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.naiveui.com/",
+    "finalUrl": "https://www.naiveui.com/zh-CN",
+    "title": "Naive UI: 一个 Vue 3 组件库",
+    "status": 200,
+    "screenshot": "views/40-naive-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:12.163Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 228
+  },
+  {
+    "id": "41-gumroad-mobile",
+    "caseId": "41-gumroad",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://gumroad.com/",
+    "finalUrl": "https://gumroad.com/",
+    "title": "Earn your first dollar online with Gumroad",
+    "status": 200,
+    "screenshot": "views/41-gumroad-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:29.075Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3995
+  },
+  {
+    "id": "41-gumroad-inner",
+    "caseId": "41-gumroad",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://gumroad.com/pricing",
+    "finalUrl": "https://gumroad.com/pricing",
+    "title": "Gumroad pricing: 10% + 50¢ direct, 30% via Discover",
+    "status": 200,
+    "screenshot": "views/41-gumroad-inner.jpg",
+    "capturedAt": "2026-10-25T14:35:31.854Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4056,
+    "linkText": "Pricing"
+  },
+  {
+    "id": "42-neobrutalism-mobile",
+    "caseId": "42-neobrutalism",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.neobrutalism.dev/",
+    "finalUrl": "https://www.neobrutalism.dev/",
+    "title": "Neobrutalism components - Start making neobrutalism layouts today",
+    "status": 200,
+    "screenshot": "views/42-neobrutalism-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:26.344Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 247
+  },
+  {
+    "id": "43-craigslist-mobile",
+    "caseId": "43-craigslist",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://sfbay.craigslist.org/",
+    "finalUrl": "https://www.craigslist.org/area/sfbay",
+    "title": "craigslist: SF bay area jobs, apartments, for sale, services, community, and events",
+    "status": 200,
+    "screenshot": "views/43-craigslist-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:42.160Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 520
+  },
+  {
+    "id": "44-berkshire-mobile",
+    "caseId": "44-berkshire",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.berkshirehathaway.com/",
+    "finalUrl": "https://www.berkshirehathaway.com/",
+    "title": "BERKSHIRE HATHAWAY INC.",
+    "status": 200,
+    "screenshot": "views/44-berkshire-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:37.592Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1275
+  },
+  {
+    "id": "45-spacejam-mobile",
+    "caseId": "45-spacejam",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.spacejam.com/1996/",
+    "finalUrl": "https://www.spacejam.com/1996/",
+    "title": "Space Jam",
+    "status": 200,
+    "screenshot": "views/45-spacejam-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:51.682Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 187
+  },
+  {
+    "id": "46-camerons-world-mobile",
+    "caseId": "46-camerons-world",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.cameronsworld.net/",
+    "finalUrl": "https://www.cameronsworld.net/",
+    "title": "Cameron's World",
+    "status": 200,
+    "screenshot": "views/46-camerons-world-mobile.jpg",
+    "capturedAt": "2026-10-25T14:35:53.952Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 8092
+  },
+  {
+    "id": "47-fishwife-mobile",
+    "caseId": "47-fishwife",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://eatfishwife.com/",
+    "finalUrl": "https://eatfishwife.com/",
+    "title": "Fishwife Tinned Seafood Co.",
+    "status": null,
+    "screenshot": "views/47-fishwife-mobile.jpg",
+    "capturedAt": "2026-10-25T14:36:31.331Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 5678
+  },
+  {
+    "id": "47-fishwife-state",
+    "caseId": "47-fishwife",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://eatfishwife.com/",
+    "finalUrl": "https://eatfishwife.com/",
+    "title": "Fishwife Tinned Seafood Co.",
+    "status": null,
+    "screenshot": "views/47-fishwife-state.jpg",
+    "capturedAt": "2026-10-25T14:36:33.457Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 5985,
+    "interaction": "点击导航按钮：Menu"
+  },
+  {
+    "id": "47-fishwife-inner",
+    "caseId": "47-fishwife",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://eatfishwife.com/products/smoked-salmon-with-flybyjing-sichuan-chili-crisp",
+    "finalUrl": "https://eatfishwife.com/products/smoked-salmon-with-flybyjing-sichuan-chili-crisp",
+    "title": "Smoked Salmon with Fly By Jing Sichuan Chili Crisp | Fishwife | Fishwife",
+    "status": 200,
+    "screenshot": "views/47-fishwife-inner.jpg",
+    "capturedAt": "2026-10-25T14:36:41.709Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 7603,
+    "linkText": "Smoked Salmon with Fly By Jing Chili Crisp"
+  },
+  {
+    "id": "48-olipop-mobile",
+    "caseId": "48-olipop",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://drinkolipop.com/",
+    "finalUrl": "https://drinkolipop.com/",
+    "title": "OLIPOP | Healthy Prebiotic Soda",
+    "status": null,
+    "screenshot": "views/48-olipop-mobile.jpg",
+    "capturedAt": "2026-10-25T14:36:17.691Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3147
+  },
+  {
+    "id": "48-olipop-state",
+    "caseId": "48-olipop",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://drinkolipop.com/",
+    "finalUrl": "https://drinkolipop.com/",
+    "title": "OLIPOP | Healthy Prebiotic Soda",
+    "status": null,
+    "screenshot": "views/48-olipop-state.jpg",
+    "capturedAt": "2026-10-25T14:36:48.164Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3727,
+    "interaction": "点击导航按钮：Open mobile menu"
+  },
+  {
+    "id": "48-olipop-inner",
+    "caseId": "48-olipop",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://drinkolipop.com/pages/our-story",
+    "finalUrl": "https://drinkolipop.com/pages/our-story",
+    "title": "The OLIPOP Story",
+    "status": 200,
+    "screenshot": "views/48-olipop-inner.jpg",
+    "capturedAt": "2026-10-26T06:46:23.463Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": false,
+    "textLength": 2877,
+    "linkText": "Learn More",
+    "reviewNote": "等待实际页面完成后复核截图"
+  },
+  {
+    "id": "49-scificn-mobile",
+    "caseId": "49-scificn",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.scificn.dev/showcase/sci-fi",
+    "finalUrl": "https://www.scificn.dev/showcase/sci-fi",
+    "title": "Nexus Station-7 Ops Control — scificn-ui",
+    "status": 200,
+    "screenshot": "views/49-scificn-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:07.850Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2155
+  },
+  {
+    "id": "50-augmented-ui-mobile",
+    "caseId": "50-augmented-ui",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://augmented-ui.com/",
+    "finalUrl": "https://augmented-ui.com/",
+    "title": "augmented-ui - Integrate your apps with technology",
+    "status": 200,
+    "screenshot": "views/50-augmented-ui-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:09.776Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6733
+  },
+  {
+    "id": "51-nes-css-mobile",
+    "caseId": "51-nes-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://nostalgic-css.github.io/NES.css/",
+    "finalUrl": "https://nostalgic-css.github.io/NES.css/",
+    "title": "NES.css - NES-style CSS Framework",
+    "status": 200,
+    "screenshot": "views/51-nes-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:25.300Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3870
+  },
+  {
+    "id": "52-rpgui-mobile",
+    "caseId": "52-rpgui",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://ronenness.github.io/RPGUI/",
+    "finalUrl": "https://ronenness.github.io/RPGUI/",
+    "title": "RPGUI - RPG-style gui in HTML5!",
+    "status": 200,
+    "screenshot": "views/52-rpgui-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:20.809Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2759
+  },
+  {
+    "id": "53-terminal-css-mobile",
+    "caseId": "53-terminal-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://terminalcss.xyz/",
+    "finalUrl": "https://terminalcss.xyz/",
+    "title": "Terminal CSS",
+    "status": 200,
+    "screenshot": "views/53-terminal-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:35.806Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 9221
+  },
+  {
+    "id": "54-hackertyper-mobile",
+    "caseId": "54-hackertyper",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://hackertyper.net/",
+    "finalUrl": "https://hackertyper.net/",
+    "title": "Hacker Typer",
+    "status": 200,
+    "screenshot": "views/54-hackertyper-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:31.620Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 24
+  },
+  {
+    "id": "55-css-glass-mobile",
+    "caseId": "55-css-glass",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://css.glass/",
+    "finalUrl": "https://css.glass/",
+    "title": "Glassmorphism CSS Effect Generator - Glass CSS",
+    "status": 200,
+    "screenshot": "views/55-css-glass-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:45.999Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 472
+  },
+  {
+    "id": "56-hype-glass-mobile",
+    "caseId": "56-hype-glass",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://hype4.academy/tools/glassmorphism-generator",
+    "finalUrl": "https://hype4.academy/tools/glassmorphism-generator",
+    "title": "Glassmorphism CSS Generator | SquarePlanet | SquarePlanet",
+    "status": 200,
+    "screenshot": "views/56-hype-glass-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:47.116Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2177
+  },
+  {
+    "id": "57-neumorphism-mobile",
+    "caseId": "57-neumorphism",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://neumorphism.io/",
+    "finalUrl": "https://neumorphism.io/#e0e0e0",
+    "title": "Neumorphism CSS shadow generator",
+    "status": 200,
+    "screenshot": "views/57-neumorphism-mobile.jpg",
+    "capturedAt": "2026-10-25T14:37:57.849Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1323
+  },
+  {
+    "id": "58-neumorphism-ui-mobile",
+    "caseId": "58-neumorphism-ui",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://demo.themesberg.com/neumorphism-ui/",
+    "finalUrl": "https://demo.themesberg.com/neumorphism-ui/",
+    "title": "Neumorphism UI",
+    "status": 200,
+    "screenshot": "views/58-neumorphism-ui-mobile.jpg",
+    "capturedAt": "2026-10-25T14:38:01.002Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 16200
+  },
+  {
+    "id": "58-neumorphism-ui-state",
+    "caseId": "58-neumorphism-ui",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://demo.themesberg.com/neumorphism-ui/",
+    "finalUrl": "https://demo.themesberg.com/neumorphism-ui/",
+    "title": "Neumorphism UI",
+    "status": 200,
+    "screenshot": "views/58-neumorphism-ui-state.jpg",
+    "capturedAt": "2026-10-25T14:38:01.460Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 16225,
+    "interaction": "点击导航按钮：Toggle navigation"
+  },
+  {
+    "id": "59-poolsuite-mobile",
+    "caseId": "59-poolsuite",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://poolsuite.net/",
+    "finalUrl": "https://poolsuite.net/",
+    "title": "Poolsuite ☼",
+    "status": 200,
+    "screenshot": "views/59-poolsuite-mobile.jpg",
+    "capturedAt": "2026-10-25T15:15:08.931Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 230,
+    "reviewNote": "等待动画或文档预览加载后重拍"
+  },
+  {
+    "id": "60-98-css-mobile",
+    "caseId": "60-98-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://jdan.github.io/98.css/",
+    "finalUrl": "https://jdan.github.io/98.css/",
+    "title": "98.css - A design system for building faithful recreations of old UIs",
+    "status": 200,
+    "screenshot": "views/60-98-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:38:09.245Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 14098
+  },
+  {
+    "id": "61-xp-css-mobile",
+    "caseId": "61-xp-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://botoxparty.github.io/XP.css/",
+    "finalUrl": "https://botoxparty.github.io/XP.css/",
+    "title": "XP.css - A design system for building faithful recreations of old UIs",
+    "status": 200,
+    "screenshot": "views/61-xp-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:38:26.679Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 11597
+  },
+  {
+    "id": "62-material-mobile",
+    "caseId": "62-material",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://m3.material.io/",
+    "finalUrl": "https://m3.material.io/",
+    "title": "Material Design 3 - Google's latest open source design system",
+    "status": 200,
+    "screenshot": "views/62-material-mobile.jpg",
+    "capturedAt": "2026-10-25T14:38:31.284Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3455
+  },
+  {
+    "id": "62-material-inner",
+    "caseId": "62-material",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://m3.material.io/blog/whats-new-at-io26?utm_source=homepage&utm_medium=referral&utm_campaign=IO26",
+    "finalUrl": "https://m3.material.io/blog/whats-new-at-io26?utm_source=homepage&utm_medium=referral&utm_campaign=IO26",
+    "title": "What’s new at Google I/O 2026",
+    "status": 200,
+    "screenshot": "views/62-material-inner.jpg",
+    "capturedAt": "2026-10-25T14:38:37.913Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 3901,
+    "linkText": "May 19, 2026What’s new at Google I/O 2026Material’s latest updates make it easier to create expressi"
+  },
+  {
+    "id": "63-angular-material-mobile",
+    "caseId": "63-angular-material",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://material.angular.dev/components/button/overview",
+    "finalUrl": "https://material.angular.dev/components/button/overview",
+    "title": "Button • Angular Material",
+    "status": 200,
+    "screenshot": "views/63-angular-material-mobile.jpg",
+    "capturedAt": "2026-10-25T14:38:44.667Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6539
+  },
+  {
+    "id": "63-angular-material-inner",
+    "caseId": "63-angular-material",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://material.angular.dev/guides",
+    "finalUrl": "https://material.angular.dev/guides",
+    "title": "Guides • Angular Material",
+    "status": 200,
+    "screenshot": "views/63-angular-material-inner.jpg",
+    "capturedAt": "2026-10-25T14:38:46.812Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 1076,
+    "linkText": "Guides"
+  },
+  {
+    "id": "65-tabler-mobile",
+    "caseId": "65-tabler",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://preview.tabler.io/",
+    "finalUrl": "https://preview.tabler.io/",
+    "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.",
+    "status": 200,
+    "screenshot": "views/65-tabler-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:04.529Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 5526
+  },
+  {
+    "id": "65-tabler-inner",
+    "caseId": "65-tabler",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://preview.tabler.io/pricing.html",
+    "finalUrl": "https://preview.tabler.io/pricing.html",
+    "title": "Pricing cards - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.",
+    "status": 200,
+    "screenshot": "views/65-tabler-inner.jpg",
+    "capturedAt": "2026-10-25T14:39:10.548Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 1170,
+    "linkText": "Pricing cards"
+  },
+  {
+    "id": "66-headspace-mobile",
+    "caseId": "66-headspace",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.headspace.com/",
+    "finalUrl": "https://www.headspace.com/",
+    "title": "Mental Health App for Meditation & Sleep - Headspace",
+    "status": 200,
+    "screenshot": "views/66-headspace-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:00.912Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3270
+  },
+  {
+    "id": "66-headspace-inner",
+    "caseId": "66-headspace",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://www.headspace.com/about-us?origin=navigation",
+    "finalUrl": "https://www.headspace.com/about-us?origin=navigation",
+    "title": "About Us - Headspace",
+    "status": 200,
+    "screenshot": "views/66-headspace-inner.jpg",
+    "capturedAt": "2026-10-25T14:39:07.389Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4237,
+    "linkText": "About"
+  },
+  {
+    "id": "67-finch-mobile",
+    "caseId": "67-finch",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://finchcare.com/",
+    "finalUrl": "https://finchcare.com/",
+    "title": "Finch - Your New Self-Care Best Friend",
+    "status": 200,
+    "screenshot": "views/67-finch-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:16.708Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 172
+  },
+  {
+    "id": "67-finch-inner",
+    "caseId": "67-finch",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://finchcare.com/about-finch",
+    "finalUrl": "https://finchcare.com/about-finch",
+    "title": "Finch: Free Self-Care Pet App, Features & Finch Plus",
+    "status": 200,
+    "screenshot": "views/67-finch-inner.jpg",
+    "capturedAt": "2026-10-25T14:39:22.732Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 4095,
+    "linkText": "About Finch"
+  },
+  {
+    "id": "68-bento-mobile",
+    "caseId": "68-bento",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://ui.aceternity.com/components/bento-grid",
+    "finalUrl": "https://ui.aceternity.com/components/bento-grid",
+    "title": "Bento Grid Component for React & Tailwind | Aceternity UI",
+    "status": 200,
+    "screenshot": "views/68-bento-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:21.907Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 4174
+  },
+  {
+    "id": "68-bento-state",
+    "caseId": "68-bento",
+    "kind": "state",
+    "label": "手机导航展开",
+    "requestedUrl": "https://ui.aceternity.com/components/bento-grid",
+    "finalUrl": "https://ui.aceternity.com/components/bento-grid",
+    "title": "Bento Grid Component for React & Tailwind | Aceternity UI",
+    "status": 200,
+    "screenshot": "views/68-bento-state.jpg",
+    "capturedAt": "2026-10-25T14:39:22.368Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 4304,
+    "interaction": "点击导航按钮：Toggle menu"
+  },
+  {
+    "id": "69-7-css-mobile",
+    "caseId": "69-7-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://khang-nd.github.io/7.css/",
+    "finalUrl": "https://khang-nd.github.io/7.css/",
+    "title": "7.css - A CSS framework for recreating Windows 7 UI",
+    "status": 200,
+    "screenshot": "views/69-7-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:30.834Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 24165
+  },
+  {
+    "id": "70-system-css-mobile",
+    "caseId": "70-system-css",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://sakofchit.github.io/system.css/",
+    "finalUrl": "https://sakofchit.github.io/system.css/",
+    "title": "system.css | A design system for building retro Apple-inspired interfaces",
+    "status": 200,
+    "screenshot": "views/70-system-css-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:26.969Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 6624
+  },
+  {
+    "id": "71-liquidglass-mobile",
+    "caseId": "71-liquidglass",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://liquidglass.dev/",
+    "finalUrl": "https://liquidglass.dev/",
+    "title": "Liquid Glass for the Web — real refraction in every browser",
+    "status": 200,
+    "screenshot": "views/71-liquidglass-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:38.159Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3231
+  },
+  {
+    "id": "72-liquid-react-mobile",
+    "caseId": "72-liquid-react",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://glass.samasante.com/",
+    "finalUrl": "https://glass.samasante.com/",
+    "title": "liquid-glass — refract the live DOM, in every browser",
+    "status": 200,
+    "screenshot": "views/72-liquid-react-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:36.175Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 553
+  },
+  {
+    "id": "73-clay-generator-mobile",
+    "caseId": "73-clay-generator",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://hype4.academy/tools/claymorphism-generator",
+    "finalUrl": "https://hype4.academy/tools/claymorphism-generator",
+    "title": "Claymorphism CSS Generator | SquarePlanet",
+    "status": 200,
+    "screenshot": "views/73-clay-generator-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:44.576Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1854
+  },
+  {
+    "id": "74-clay-bloom-mobile",
+    "caseId": "74-clay-bloom",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://8web.ai/demo/claymorphism",
+    "finalUrl": "https://8web.ai/demo/claymorphism",
+    "title": "Claymorphism — Bloom Malaysia | 8WEB.AI Demo",
+    "status": 200,
+    "screenshot": "views/74-clay-bloom-mobile.jpg",
+    "capturedAt": "2026-10-25T14:39:49.981Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 988
+  },
+  {
+    "id": "75-palace-mobile",
+    "caseId": "75-palace",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.dpm.org.cn/",
+    "finalUrl": "https://www.dpm.org.cn/#",
+    "title": "故宫博物院",
+    "status": 200,
+    "screenshot": "views/75-palace-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:00.226Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1982
+  },
+  {
+    "id": "76-dunhuang-mobile",
+    "caseId": "76-dunhuang",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.e-dunhuang.com/",
+    "finalUrl": "https://www.e-dunhuang.com/",
+    "title": "数字敦煌",
+    "status": 200,
+    "screenshot": "views/76-dunhuang-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:01.260Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 594
+  },
+  {
+    "id": "77-y2k-artifx-mobile",
+    "caseId": "77-y2k-artifx",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://artifx.dev/ui-styles/y2k-design",
+    "finalUrl": "https://artifx.dev/ui-styles/y2k-design",
+    "title": "Y2K Design — UI Style Guide | Artifx",
+    "status": 200,
+    "screenshot": "views/77-y2k-artifx-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:08.376Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2532
+  },
+  {
+    "id": "78-rewind-mobile",
+    "caseId": "78-rewind",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://8web.ai/demo/retro-y2k",
+    "finalUrl": "https://8web.ai/demo/retro-y2k",
+    "title": "Retro Y2K — Rewind Malaysia | 8WEB.AI Demo",
+    "status": 200,
+    "screenshot": "views/78-rewind-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:06.464Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 976
+  },
+  {
+    "id": "79-fluent-mobile",
+    "caseId": "79-fluent",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://fluent2.microsoft.design/",
+    "finalUrl": "https://fluent2.microsoft.design/",
+    "title": "Home - Fluent 2 Design System",
+    "status": 200,
+    "screenshot": "views/79-fluent-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:20.952Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1038
+  },
+  {
+    "id": "79-fluent-inner",
+    "caseId": "79-fluent",
+    "kind": "inner",
+    "label": "同站内页",
+    "requestedUrl": "https://fluent2.microsoft.design/get-started/develop",
+    "finalUrl": "https://fluent2.microsoft.design/get-started/develop",
+    "title": "Develop - Fluent 2 Design System",
+    "status": 200,
+    "screenshot": "views/79-fluent-inner.jpg",
+    "capturedAt": "2026-10-25T14:40:27.821Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 2653,
+    "linkText": "DevelopFind installation guides and tooling tipsGet started →"
+  },
+  {
+    "id": "80-fluent-button-mobile",
+    "caseId": "80-fluent-button",
+    "kind": "mobile",
+    "label": "手机文档预览",
+    "requestedUrl": "https://storybooks.fluentui.dev/react/?path=/docs/components-button-button--docs",
+    "finalUrl": "https://storybooks.fluentui.dev/react/iframe.html?viewMode=docs&id=components-button-button--docs",
+    "title": "components-button-button--docs",
+    "status": 200,
+    "screenshot": "views/80-fluent-button-mobile.jpg",
+    "capturedAt": "2026-10-25T15:15:33.126Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": false,
+    "textLength": 6154,
+    "reviewNote": "等待动画或文档预览加载后重拍"
+  },
+  {
+    "id": "81-1014-mobile",
+    "caseId": "81-1014",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://www.1014.nyc/",
+    "finalUrl": "https://www.1014.nyc/",
+    "title": "1014",
+    "status": 200,
+    "screenshot": "views/81-1014-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:39.656Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 3386
+  },
+  {
+    "id": "82-bauhaus-demo-mobile",
+    "caseId": "82-bauhaus-demo",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://dev.remember.style/bauhaus",
+    "finalUrl": "https://dev.remember.style/bauhaus",
+    "title": "Bauhaus Web Design — Live Example | Remember Style",
+    "status": 200,
+    "screenshot": "views/82-bauhaus-demo-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:36.272Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1306
+  },
+  {
+    "id": "83-memphoria-mobile",
+    "caseId": "83-memphoria",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://memphoriademo.wordpress.com/",
+    "finalUrl": "https://memphoriademo.wordpress.com/",
+    "title": "Memphoria – A Rebel of Colour, Shape, and Rhythm",
+    "status": 200,
+    "screenshot": "views/83-memphoria-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:49.723Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1771
+  },
+  {
+    "id": "84-memphis-demo-mobile",
+    "caseId": "84-memphis-demo",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://dev.remember.style/memphis",
+    "finalUrl": "https://dev.remember.style/memphis",
+    "title": "Memphis Web Design — Live Example | Remember Style",
+    "status": 200,
+    "screenshot": "views/84-memphis-demo-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:44.142Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1104
+  },
+  {
+    "id": "85-wired-mobile",
+    "caseId": "85-wired",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://wiredjs.com/",
+    "finalUrl": "https://wiredjs.com/",
+    "title": "Wired Elements",
+    "status": 200,
+    "screenshot": "views/85-wired-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:55.918Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 1114
+  },
+  {
+    "id": "85-wired-section",
+    "caseId": "85-wired",
+    "kind": "section",
+    "label": "首页内容区",
+    "requestedUrl": "https://wiredjs.com/",
+    "finalUrl": "https://wiredjs.com/",
+    "title": "Wired Elements",
+    "status": 200,
+    "screenshot": "views/85-wired-section.jpg",
+    "capturedAt": "2026-10-25T14:40:59.228Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 1114,
+    "scrollY": 850
+  },
+  {
+    "id": "86-rough-notation-mobile",
+    "caseId": "86-rough-notation",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://roughnotation.com/",
+    "finalUrl": "https://roughnotation.com/",
+    "title": "RoughNotation",
+    "status": 200,
+    "screenshot": "views/86-rough-notation-mobile.jpg",
+    "capturedAt": "2026-10-25T14:40:54.328Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 2750
+  },
+  {
+    "id": "86-rough-notation-section",
+    "caseId": "86-rough-notation",
+    "kind": "section",
+    "label": "首页内容区",
+    "requestedUrl": "https://roughnotation.com/",
+    "finalUrl": "https://roughnotation.com/",
+    "title": "RoughNotation",
+    "status": 200,
+    "screenshot": "views/86-rough-notation-section.jpg",
+    "capturedAt": "2026-10-25T14:40:58.549Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reducedMotion": true,
+    "textLength": 2750,
+    "scrollY": 850
+  },
+  {
+    "id": "06-spline-mobile",
+    "caseId": "06-spline",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://spline.design/",
+    "finalUrl": "https://spline.design/",
+    "title": "Spline - 3D Design tool in the browser with real-time collaboration",
+    "status": 200,
+    "screenshot": "views/06-spline-mobile.jpg",
+    "capturedAt": "2026-10-25T15:03:20.580Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 5188
+  },
+  {
+    "id": "64-shadcn-admin-mobile",
+    "caseId": "64-shadcn-admin",
+    "kind": "mobile",
+    "label": "手机视口",
+    "requestedUrl": "https://shadcn-admin.netlify.app/",
+    "finalUrl": "https://shadcn-admin.netlify.app/",
+    "title": "Shadcn Admin",
+    "status": 200,
+    "screenshot": "views/64-shadcn-admin-mobile.jpg",
+    "capturedAt": "2026-10-25T15:03:31.425Z",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": true,
+    "textLength": 710
+  }
+]

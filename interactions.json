@@ -1,0 +1,726 @@
+[
+  {
+    "id": "int-scroll-reveal",
+    "name": "进入视口揭示",
+    "family": "滚动",
+    "aliases": [
+      "Scroll reveal",
+      "Reveal on scroll",
+      "滚动出现"
+    ],
+    "definition": "元素进入视口时做一次位移或淡入，用时间差把阅读顺序讲清楚。",
+    "cues": [
+      "滚入时淡入或上移",
+      "一次性触发、回滚不回放",
+      "同屏元素依次错开"
+    ],
+    "boundary": "随滚动持续变速的位移不算揭示，归 int-scroll-parallax；只在首次加载播放的归 int-preloader。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-feedback",
+      "layout-hierarchy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-scroll-parallax",
+    "name": "视差分层",
+    "family": "滚动",
+    "aliases": [
+      "Parallax",
+      "视差",
+      "分层滚动"
+    ],
+    "definition": "让前后景以不同速率移动，用速度差造出深度与空间感。",
+    "cues": [
+      "前景与背景位移速度不同",
+      "滚动时层间产生相对位移",
+      "常用于大图与标题之间"
+    ],
+    "boundary": "一次性入场位移不算视差；整块固定不动、只换内容的是 int-scroll-pin。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "MDN Scroll-driven animations",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "depth-soft",
+      "image-photo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-scroll-pin",
+    "name": "滚动钉住叙事",
+    "family": "滚动",
+    "aliases": [
+      "Scroll pin",
+      "Scrollytelling",
+      "滚动叙事"
+    ],
+    "definition": "把区块在视口里固定住，内容随滚动逐步切换，用一屏空间讲完一组变化。",
+    "cues": [
+      "区块固定而内容被替换",
+      "滚动条推进章节进度",
+      "固定期间页面不整体位移"
+    ],
+    "boundary": "只有速度差的视差不等于钉住；需要点击才切换的轮播另计。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Carbon Motion",
+        "url": "https://carbondesignsystem.com/elements/motion/overview/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-scene",
+      "layout-hierarchy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-scroll-progress",
+    "name": "滚动进度",
+    "family": "滚动",
+    "aliases": [
+      "Scroll progress",
+      "Progress bar",
+      "阅读进度"
+    ],
+    "definition": "把滚动位置换算成进度条或章节指示，让访客知道还剩多少内容。",
+    "cues": [
+      "顶部细进度条",
+      "随滚动增长的比例",
+      "章节点或百分比标注"
+    ],
+    "boundary": "加载数据的进度归 int-progress-indicator；纯装饰的滚动动画不算进度指示。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-scroll-horizontal",
+    "name": "横向滚动",
+    "family": "滚动",
+    "aliases": [
+      "Horizontal scroll",
+      "横向滑动",
+      "横滚画廊"
+    ],
+    "definition": "用纵向滚动驱动横向位移，把长条画廊塞进有限高度里。",
+    "cues": [
+      "纵向滚动引发横向移动",
+      "卡片排成一条长带",
+      "末端有继续向下的出口"
+    ],
+    "boundary": "可手动拖动的画廊归 int-drag；触屏上手指横滑的不做滚动驱动的归 int-gesture。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-collage",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-page-transition",
+    "name": "页面转场",
+    "family": "转场",
+    "aliases": [
+      "Page transition",
+      "Route transition",
+      "换页动画"
+    ],
+    "definition": "路由切换时用整页遮盖、位移或淡出承接上下文，让换页不显生硬。",
+    "cues": [
+      "点击链接后整页过渡",
+      "遮罩或色块覆盖再揭开",
+      "新旧页面共用同一套动画语言"
+    ],
+    "boundary": "单页内部的区块切换不算页面转场；首屏加载遮罩归 int-preloader。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Carbon Motion",
+        "url": "https://carbondesignsystem.com/elements/motion/overview/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-feedback"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-shared-element",
+    "name": "共享元素转场",
+    "family": "转场",
+    "aliases": [
+      "Shared element",
+      "FLIP",
+      "连续转场"
+    ],
+    "definition": "让列表项在详情页以同一元素放大延续，用位置连续性告诉访客点开的是它。",
+    "cues": [
+      "同一图片或卡片在两页间位移放大",
+      "转场前后尺寸连续",
+      "返回时反方向还原"
+    ],
+    "boundary": "只有淡入淡出的换页不算共享元素；同页内放大预览属于覆盖层，不跨路由。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Carbon Motion",
+        "url": "https://carbondesignsystem.com/elements/motion/overview/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "shape-round"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-preloader",
+    "name": "入场加载",
+    "family": "加载",
+    "aliases": [
+      "Preloader",
+      "Loader",
+      "加载动画"
+    ],
+    "definition": "首屏用计数器、百分比或遮罩揭开遮住加载空档，顺便定下全站节奏。",
+    "cues": [
+      "进入时的百分比或计数器",
+      "整屏遮罩随后揭开",
+      "通常 1–2 秒内结束"
+    ],
+    "boundary": "内容区局部的占位骨架不算入场加载，归 int-skeleton；真实数据传输的进度归 int-progress-indicator。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Ant Design Motion",
+        "url": "https://ant.design/docs/spec/motion",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-scene",
+      "type-display"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-skeleton",
+    "name": "骨架屏",
+    "family": "加载",
+    "aliases": [
+      "Skeleton",
+      "骨架屏",
+      "占位加载"
+    ],
+    "definition": "用与最终布局同形的灰块占位，减少内容到达时的布局跳动。",
+    "cues": [
+      "灰块与真实内容同形",
+      "内容到达后原地替换",
+      "不用转圈 spinner"
+    ],
+    "boundary": "不确定时长的转圈或进度条归 int-progress-indicator；单张图的模糊占位不算整块骨架。",
+    "source": [
+      {
+        "label": "NN/g Skeleton screens",
+        "url": "https://www.nngroup.com/articles/skeleton-screens/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Ant Design 组件总览",
+        "url": "https://ant.design/components/overview",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-progress-indicator",
+    "name": "进度指示",
+    "family": "加载",
+    "aliases": [
+      "Progress",
+      "Spinner",
+      "进度条"
+    ],
+    "definition": "用条形、环形或不确定态 spinner 告知操作仍在进行，避免访客重复点击。",
+    "cues": [
+      "条形或环形进度",
+      "百分比或剩余时间",
+      "不确定态用循环 spinner"
+    ],
+    "boundary": "结构性占位不算进度指示，归 int-skeleton；阅读位置的滚动进度归 int-scroll-progress。",
+    "source": [
+      {
+        "label": "Ant Design 组件总览",
+        "url": "https://ant.design/components/overview",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Carbon Patterns",
+        "url": "https://carbondesignsystem.com/patterns/overview/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-micro-feedback",
+    "name": "触发—反馈微交互",
+    "family": "反馈",
+    "aliases": [
+      "Microinteraction",
+      "Trigger feedback",
+      "微交互"
+    ],
+    "definition": "为一次操作配一对即时的触发与反馈，让界面确认已经收到了。",
+    "cues": [
+      "按压、开关、校验的即时反应",
+      "触发与反馈成对出现",
+      "反馈幅度小而明确"
+    ],
+    "boundary": "只描述悬停视觉变化的归 int-hover；页面级加载与转场另计，不重复算微交互。",
+    "source": [
+      {
+        "label": "NN/g 微交互",
+        "url": "https://www.nngroup.com/articles/microinteractions/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Carbon Patterns",
+        "url": "https://carbondesignsystem.com/patterns/overview/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-feedback",
+      "component-state"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-hover",
+    "name": "悬停态",
+    "family": "反馈",
+    "aliases": [
+      "Hover",
+      "Hover state",
+      "悬停"
+    ],
+    "definition": "指针进入可交互元素时给出位移、放大、描边或换图，提示这里可以点。",
+    "cues": [
+      "悬停后位移或放大",
+      "描边、底色或图片切换",
+      "移出后复原"
+    ],
+    "boundary": "只改变文字颜色的 hover 归 component-state，不算独立交互模式；触屏无悬停的不计。",
+    "source": [
+      {
+        "label": "GitHub Primer",
+        "url": "https://primer.style/components",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state",
+      "component-button"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-cursor",
+    "name": "自定义光标",
+    "family": "指针",
+    "aliases": [
+      "Custom cursor",
+      "Cursor",
+      "自定义鼠标"
+    ],
+    "definition": "用跟随指针的圆点、标签或变形体替代系统光标，把指针本身变成品牌表达。",
+    "cues": [
+      "光标形状被替换",
+      "圆点或标签跟随指针",
+      "悬停可点区时变形或放大"
+    ],
+    "boundary": "只把光标改成 pointer 的不算；指针附近元素自身位移归 int-magnetic。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "shape-round",
+      "color-accent"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-magnetic",
+    "name": "磁吸/趋近",
+    "family": "指针",
+    "aliases": [
+      "Magnetic",
+      "Magnetic button",
+      "磁吸"
+    ],
+    "definition": "元素在指针靠近时偏移吸附，制造被吸引的手感并放大可点区域。",
+    "cues": [
+      "指针接近时元素位移",
+      "位移方向朝向指针",
+      "离开后弹回原位"
+    ],
+    "boundary": "只有缩放或阴影变化的不算磁吸，归 int-hover；跟随指针移动的独立图形归 int-cursor。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-button",
+      "shape-round"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-drag",
+    "name": "拖拽与惯性",
+    "family": "输入",
+    "aliases": [
+      "Drag",
+      "Draggable",
+      "拖拽"
+    ],
+    "definition": "让卡片、画廊或面板可被直接拖动并带惯性，用物理感替代按钮翻页。",
+    "cues": [
+      "按住可拖动内容",
+      "松手后有惯性滑行",
+      "边界回弹或吸附"
+    ],
+    "boundary": "滚动驱动的横向位移不算拖拽，归 int-scroll-horizontal；表单滑杆拖动归 component-input。",
+    "source": [
+      {
+        "label": "W3C ARIA APG",
+        "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-collage",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-marquee",
+    "name": "循环跑马灯",
+    "family": "文字与媒体",
+    "aliases": [
+      "Marquee",
+      "Ticker",
+      "跑马灯"
+    ],
+    "definition": "让 logo 或文字条带无缝循环滚动，在有限高度里表达很多与持续感。",
+    "cues": [
+      "横向持续滚动的条带",
+      "首尾无缝衔接",
+      "速度恒定或随滚动加快"
+    ],
+    "boundary": "需要点击翻页的轮播不算跑马灯；单次进入的位移归 int-scroll-reveal。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Landingfolio",
+        "url": "https://www.landingfolio.com/library",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-display",
+      "layout-grid"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-text-motion",
+    "name": "文字动效",
+    "family": "文字与媒体",
+    "aliases": [
+      "Text animation",
+      "Kinetic type",
+      "文字动效"
+    ],
+    "definition": "让文字逐字逐行揭示或动态改变字重与字距，用排版本身承担动效。",
+    "cues": [
+      "逐字或逐行出现",
+      "字重与字距随滚动变化",
+      "行内遮罩揭示"
+    ],
+    "boundary": "整块淡入的文字归 int-scroll-reveal；静态大字排版归 type-display，不算动效。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Ant Design Motion",
+        "url": "https://ant.design/docs/spec/motion",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-display",
+      "kinetic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-media-autoplay",
+    "name": "自动播放媒体",
+    "family": "文字与媒体",
+    "aliases": [
+      "Autoplay video",
+      "Background video",
+      "自动播放"
+    ],
+    "definition": "用无声循环的视频或动图作背景，把产品质感与场景直接播给访客。",
+    "cues": [
+      "进入即自动播放",
+      "无控制条、静音循环",
+      "视频承担背景或主视觉"
+    ],
+    "boundary": "需要点击才播放的宣传片不算自动播放；静态大图归 image-photo。",
+    "source": [
+      {
+        "label": "Awwwards Elements",
+        "url": "https://www.awwwards.com/elements/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "motion-scene"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-3d-scene",
+    "name": "可交互 3D 场景",
+    "family": "空间",
+    "aliases": [
+      "3D scene",
+      "WebGL",
+      "交互 3D"
+    ],
+    "definition": "在页面里放可旋转或随指针变化的 3D 场景，用空间与光照代替平面图文。",
+    "cues": [
+      "可拖拽旋转的模型",
+      "指针驱动的相机或着色器",
+      "实时渲染而非视频"
+    ],
+    "boundary": "预渲染的 3D 风格插画不算场景，归 image-3d；纯视频播放归 int-media-autoplay。",
+    "source": [
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "VINS (arXiv)",
+        "url": "https://arxiv.org/abs/2102.05216",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-3d",
+      "motion-scene",
+      "immersive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-sound",
+    "name": "声音反馈",
+    "family": "反馈",
+    "aliases": [
+      "Sound",
+      "Audio feedback",
+      "音效"
+    ],
+    "definition": "在点击、悬停或入场时给出短音效，用听觉加深操作确认与氛围。",
+    "cues": [
+      "操作伴随可听见的音效",
+      "有静音或音量开关",
+      "音效短且不循环"
+    ],
+    "boundary": "持续播放的背景音乐播放器属内容本身，不是交互反馈；视频自带音轨不算。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "motion-feedback"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "int-keyboard",
+    "name": "键盘与焦点流",
+    "family": "输入",
+    "aliases": [
+      "Keyboard",
+      "Focus",
+      "焦点流"
+    ],
+    "definition": "用焦点环、Tab 顺序、跳转链接与快捷键支撑纯键盘操作，让页面不依赖鼠标。",
+    "cues": [
+      "Tab 时可见焦点环",
+      "跳转主内容的 skip link",
+      "Esc 关闭、方向键导航"
+    ],
+    "boundary": "只在移动端生效的手势不算；鼠标悬停态归 int-hover。",
+    "source": [
+      {
+        "label": "W3C ARIA APG",
+        "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/components/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-input",
+      "component-state"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "int-gesture",
+    "name": "手势",
+    "family": "输入",
+    "aliases": [
+      "Gesture",
+      "Swipe",
+      "手势"
+    ],
+    "definition": "用滑动、长按、下拉刷新等触屏手势承载导航与操作，把移动端交互做成本能。",
+    "cues": [
+      "横滑切换内容",
+      "长按呼出菜单",
+      "下拉刷新或上拉加载"
+    ],
+    "boundary": "鼠标拖拽不算手势，归 int-drag；键盘操作归 int-keyboard。",
+    "source": [
+      {
+        "label": "W3C ARIA APG",
+        "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "NN/g 微交互",
+        "url": "https://www.nngroup.com/articles/microinteractions/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "component-state"
+    ],
+    "status": "provisional"
+  }
+]

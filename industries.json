@@ -1,0 +1,686 @@
+[
+  {
+    "id": "ind-saas",
+    "name": "SaaS/订阅软件",
+    "family": "软件与科技",
+    "aliases": [
+      "SaaS",
+      "Subscription software",
+      "在线软件"
+    ],
+    "definition": "以订阅制提供在线软件，页面要把抽象功能翻成可感知的日常场景与方案档位。",
+    "cues": [
+      "按席位或按月报价",
+      "注册试用入口",
+      "功能与集成说明为主"
+    ],
+    "boundary": "一次性买断的桌面软件不算；面向开发者卖 API 与基础设施的归 ind-devtool。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "saas"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-devtool",
+    "name": "开发者工具/基础设施",
+    "family": "软件与科技",
+    "aliases": [
+      "Devtool",
+      "Developer tools",
+      "Infrastructure"
+    ],
+    "definition": "为开发者提供 API、部署、数据库或构建能力，页面以代码示例与文档为主要入口。",
+    "cues": [
+      "终端或代码片段演示",
+      "文档与 API 参考入口",
+      "按用量计费"
+    ],
+    "boundary": "面向普通用户的无代码工具不算本类，归 ind-saas；发布组件库与规范的文档站按本类计。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "terminal",
+      "dark-tech"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-fintech",
+    "name": "金融科技/保险",
+    "family": "软件与科技",
+    "aliases": [
+      "Fintech",
+      "Payments",
+      "金融科技"
+    ],
+    "definition": "把支付、银行、投资或保险流程做成软件或服务，页面要同时交代合规可信与操作简便。",
+    "cues": [
+      "费率或利率说明",
+      "牌照、合规与安全标识",
+      "计算器或开通流程"
+    ],
+    "boundary": "消费品牌的收银页不算；面向企业的通用 SaaS 归 ind-saas。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "dark-tech",
+      "enterprise"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-ecommerce",
+    "name": "电商/零售",
+    "family": "商业与消费",
+    "aliases": [
+      "E-commerce",
+      "Retail",
+      "零售"
+    ],
+    "definition": "以多品类商品与交易流程为核心，页面要兼顾浏览效率与结账转化。",
+    "cues": [
+      "商品列表与筛选",
+      "购物车与结账入口",
+      "促销与配送信息"
+    ],
+    "boundary": "单一品类的品牌叙事站不算电商，归 ind-dtc；以门店与菜单为主的归 ind-food。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-grid",
+      "component-button"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-dtc",
+    "name": "消费品牌/独立品牌",
+    "family": "商业与消费",
+    "aliases": [
+      "DTC",
+      "Consumer brand",
+      "独立品牌"
+    ],
+    "definition": "以单一品类自有品牌直接面向消费者，页面靠摄影、包装与故事建立品牌感。",
+    "cues": [
+      "大幅产品摄影",
+      "品牌故事与原料说明",
+      "少量 SKU 的直达购买"
+    ],
+    "boundary": "多品牌多品类的商城不算独立品牌，归 ind-ecommerce；以服饰、美妆造型为主的归 ind-fashion。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "luxury",
+      "image-photo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-food",
+    "name": "餐饮/食品饮料",
+    "family": "商业与消费",
+    "aliases": [
+      "Food & drink",
+      "Restaurant",
+      "餐饮"
+    ],
+    "definition": "围绕食物与饮品，页面以食欲影像、菜单或口味系列与到店配送信息为主。",
+    "cues": [
+      "菜品或饮品特写",
+      "菜单或口味系列",
+      "门店地址、营业时间或订购入口"
+    ],
+    "boundary": "只卖包装商品、重心在品牌叙事的站不算餐饮，归 ind-dtc；多商家食品平台归 ind-ecommerce。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "color-vivid"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-travel",
+    "name": "旅行/酒店",
+    "family": "生活与场所",
+    "aliases": [
+      "Travel",
+      "Hotel",
+      "旅行住宿"
+    ],
+    "definition": "卖目的地与住宿体验，页面以场景影像、房型或行程与预订入口组织。",
+    "cues": [
+      "目的地或房型影像",
+      "日期与人数查询入口",
+      "设施与位置说明"
+    ],
+    "boundary": "以城市与建筑本身为主的事务所不算旅行，归 ind-arch；车辆与出行工具制造归 ind-automotive。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "image-photo",
+      "luxury"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-fashion",
+    "name": "时尚/美妆",
+    "family": "商业与消费",
+    "aliases": [
+      "Fashion",
+      "Beauty",
+      "时尚"
+    ],
+    "definition": "以服饰、鞋履或护肤产品为核心，页面用造型摄影与材质细节驱动购买。",
+    "cues": [
+      "造型大片式摄影",
+      "尺码或色号选择",
+      "系列与秀场专题"
+    ],
+    "boundary": "以功能参数为主的技术硬件品牌不算时尚，归 ind-dtc；时尚与美妆报道媒体归 ind-media。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "editorial",
+      "luxury"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-health",
+    "name": "医疗/健康",
+    "family": "生活与场所",
+    "aliases": [
+      "Health",
+      "Healthcare",
+      "健康"
+    ],
+    "definition": "提供诊疗、身心或健身服务，页面要在可信度与低压力体验之间取得平衡。",
+    "cues": [
+      "预约或问诊入口",
+      "资质与隐私说明",
+      "柔和配色与温和措辞"
+    ],
+    "boundary": "健身器材与穿戴设备等硬件销售不算健康服务，归 ind-dtc；面向医院的 B 端系统归 ind-saas。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "pastel",
+      "shape-round"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-edu",
+    "name": "教育/课程",
+    "family": "内容与文化",
+    "aliases": [
+      "Education",
+      "Learning",
+      "教育"
+    ],
+    "definition": "提供学校、课程或教程内容，页面以课程结构、师资与学习成果组织。",
+    "cues": [
+      "课程或项目列表",
+      "师资与资质介绍",
+      "报名与开课时间"
+    ],
+    "boundary": "开发者文档与教程站不算教育，归 ind-devtool；以文章报道为主的知识媒体归 ind-media。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-reading",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-gov",
+    "name": "政府/公共事业",
+    "family": "专业服务",
+    "aliases": [
+      "Government",
+      "Public sector",
+      "政务"
+    ],
+    "definition": "服务公共事务与全民用户，页面以清晰层级、无障碍与多语言适配为首要目标。",
+    "cues": [
+      "机构标识与官方抬头",
+      "服务入口清单",
+      "无障碍与多语言支持"
+    ],
+    "boundary": "博物馆、剧院等以内容与展览为主的文化机构不算政府，归 ind-media；公共服务的商业承包站归 ind-saas。",
+    "source": [
+      {
+        "label": "GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/components/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "GOV.UK Design System styles",
+        "url": "https://design-system.service.gov.uk/styles/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "minimal",
+      "type-reading"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-nonprofit",
+    "name": "非营利/募捐",
+    "family": "专业服务",
+    "aliases": [
+      "Nonprofit",
+      "Charity",
+      "公益"
+    ],
+    "definition": "以公益使命与募捐为重心，页面要让访客快速理解议题并完成捐赠。",
+    "cues": [
+      "捐赠金额选项",
+      "议题与影响数据",
+      "透明度与资金去向说明"
+    ],
+    "boundary": "以活动售票为主的不算非营利，归 ind-event；社会企业的品牌销售站归 ind-dtc。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "color-accent",
+      "component-button"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-arch",
+    "name": "建筑/地产",
+    "family": "生活与场所",
+    "aliases": [
+      "Architecture",
+      "Real estate",
+      "建筑"
+    ],
+    "definition": "呈现建筑作品或房产项目，页面靠平面、材质与场地影像建立专业判断力。",
+    "cues": [
+      "项目图集与平面图",
+      "材质与结构细节",
+      "事务所简介或房源参数"
+    ],
+    "boundary": "室内与家居商品销售不算建筑，归 ind-ecommerce；工程施工与材料制造归 ind-industrial。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "minimal",
+      "layout-grid"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-industrial",
+    "name": "制造/工业/硬件",
+    "family": "商业与消费",
+    "aliases": [
+      "Industrial",
+      "Hardware",
+      "工业制造"
+    ],
+    "definition": "卖设备、材料或硬件产品，页面以参数、工艺与结构细节取信于专业买家。",
+    "cues": [
+      "规格参数表",
+      "拆解或结构图",
+      "工艺与材料说明"
+    ],
+    "boundary": "以生活方式叙事为主的消费硬件品牌不算工业，归 ind-dtc；工业软件与平台归 ind-saas。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "industrial",
+      "type-mono"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-agency",
+    "name": "设计/创意机构",
+    "family": "专业服务",
+    "aliases": [
+      "Agency",
+      "Creative studio",
+      "创意机构"
+    ],
+    "definition": "以工作室或代理商的自我呈现为主，页面用作品与获奖证明能力并吸引委托。",
+    "cues": [
+      "作品案例墙",
+      "服务范围列表",
+      "获奖或合作客户名单"
+    ],
+    "boundary": "单人作品陈列不算机构，归 ind-portfolio；承接生产制作的机构归 ind-industrial。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "maximal",
+      "kinetic",
+      "layout-grid"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-media",
+    "name": "媒体/出版",
+    "family": "内容与文化",
+    "aliases": [
+      "Media",
+      "Publishing",
+      "媒体"
+    ],
+    "definition": "以文章、影像或数据报道为主要产出，页面服务于持续阅读与内容发现。",
+    "cues": [
+      "文章卡片或栏目列表",
+      "栏目分类与订阅入口",
+      "作者与日期信息"
+    ],
+    "boundary": "以课程与教学为主的不算媒体，归 ind-edu；品牌自营的内容栏目归各自商业行业。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "editorial",
+      "type-serif"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-music",
+    "name": "音乐/娱乐",
+    "family": "内容与文化",
+    "aliases": [
+      "Music",
+      "Entertainment",
+      "音乐"
+    ],
+    "definition": "围绕艺人、唱片或演出内容，页面用影像、试听与日程驱动沉浸与购票。",
+    "cues": [
+      "试听或视频播放器",
+      "巡演与发行日程",
+      "艺人或厂牌视觉风格"
+    ],
+    "boundary": "以行业大会与展演为主的活动站不算音乐，归 ind-event；乐器与音频设备销售归 ind-industrial。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "cyber",
+      "motion-scene"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-sport",
+    "name": "体育",
+    "family": "生活与场所",
+    "aliases": [
+      "Sport",
+      "Sports",
+      "体育"
+    ],
+    "definition": "面向赛事、球队或运动装备，页面用动态影像与数据强化竞技感。",
+    "cues": [
+      "赛事日程与比分",
+      "运动员或球队标识",
+      "高对比的动感影像"
+    ],
+    "boundary": "健身与健康服务不算体育，归 ind-health；运动时尚单品品牌站归 ind-fashion。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "color-vivid",
+      "kinetic"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-event",
+    "name": "活动/会议",
+    "family": "内容与文化",
+    "aliases": [
+      "Event",
+      "Conference",
+      "活动"
+    ],
+    "definition": "为一次会议、展览或演出做单点传播，页面以时间、地点、嘉宾与购票为核心。",
+    "cues": [
+      "日期与场地信息",
+      "议程或嘉宾阵容",
+      "购票与报名入口"
+    ],
+    "boundary": "常年运营的机构站不算活动站，归各自行业；活动回顾类图文报道归 ind-media。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "type-display",
+      "color-accent"
+    ],
+    "status": "provisional"
+  },
+  {
+    "id": "ind-portfolio",
+    "name": "个人作品集/创作者",
+    "family": "内容与文化",
+    "aliases": [
+      "Portfolio",
+      "Personal site",
+      "作品集"
+    ],
+    "definition": "个人陈列作品与履历，页面用少量精选项目与自述代替机构化的服务介绍。",
+    "cues": [
+      "个人姓名作为主标题",
+      "精选项目列表",
+      "简介、履历与联系方式"
+    ],
+    "boundary": "多人工作室或代理商不算个人作品集，归 ind-agency；以博客文章为主的归 ind-media。",
+    "source": [
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "layout-whitespace",
+      "type-sans"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ind-automotive",
+    "name": "汽车/交通",
+    "family": "商业与消费",
+    "aliases": [
+      "Automotive",
+      "Mobility",
+      "汽车"
+    ],
+    "definition": "展示车型或出行服务，页面以车辆影像、性能参数与配置预约流程组织。",
+    "cues": [
+      "车型整幅影像",
+      "性能与配置参数",
+      "预约试驾或下单入口"
+    ],
+    "boundary": "工业车辆与零部件制造不算汽车品牌，归 ind-industrial；城市交通资讯与票务归 ind-travel。",
+    "source": [
+      {
+        "label": "Awwwards",
+        "url": "https://www.awwwards.com/websites/",
+        "retrieved": "2026-10-27"
+      },
+      {
+        "label": "Httpster",
+        "url": "https://httpster.net/",
+        "retrieved": "2026-10-27"
+      }
+    ],
+    "related": [
+      "immersive",
+      "image-photo"
+    ],
+    "status": "provisional"
+  }
+]

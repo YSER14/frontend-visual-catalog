@@ -1,0 +1,2520 @@
+[
+  {
+    "caseId": "01-linear",
+    "annotations": [
+      {
+        "id": "01-linear-note-1",
+        "title": "标题先建立阅读顺序",
+        "description": "大标题与较短说明分开排，先让读者理解产品主张，再进入下方的信息界面。",
+        "element": "layout-hierarchy",
+        "rect": [
+          5,
+          25,
+          79,
+          20
+        ]
+      },
+      {
+        "id": "01-linear-note-2",
+        "title": "让真实界面承担说明",
+        "description": "产品界面占据首屏下半部；细线和灰阶区分侧栏、列表与详情，避免每块都抢注意力。",
+        "element": "edge-fine",
+        "rect": [
+          5,
+          52,
+          91,
+          45
+        ]
+      },
+      {
+        "id": "01-linear-note-3",
+        "title": "导航入口保持克制",
+        "description": "右上角的注册操作使用明亮填充，与普通导航链接形成区别，操作权重集中在很小的区域里。",
+        "element": "component-button",
+        "rect": [
+          89,
+          1,
+          7,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "02-stripe",
+    "annotations": [
+      {
+        "id": "02-stripe-note-1",
+        "title": "色彩先把视线带进来",
+        "description": "渐变从右上方进入，与左侧文字形成轻重分工；背景的方向感参与组织首屏。",
+        "element": "color-gradient",
+        "rect": [
+          44,
+          0,
+          56,
+          81
+        ]
+      },
+      {
+        "id": "02-stripe-note-2",
+        "title": "行动按钮靠近文字",
+        "description": "主要操作紧挨说明，品牌标识区则后移，阅读与行动之间不需要跨越整个页面。",
+        "element": "component-button",
+        "rect": [
+          4,
+          45,
+          31,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "03-raycast",
+    "annotations": [
+      {
+        "id": "03-raycast-note-1",
+        "title": "标题周围的空白也是层级",
+        "description": "标题被大面积深色空白包围，视线自然停在中央，页面没有用额外框线解释主次。",
+        "element": "layout-whitespace",
+        "rect": [
+          21,
+          25,
+          59,
+          42
+        ]
+      },
+      {
+        "id": "03-raycast-note-2",
+        "title": "按钮在克制的画面里出现",
+        "description": "中央按钮与标题共享轴线，圆角和明亮表面让它在深色背景上成为明确入口。",
+        "element": "component-button",
+        "rect": [
+          38,
+          74,
+          28,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "04-framer",
+    "annotations": [
+      {
+        "id": "04-framer-note-1",
+        "title": "展示字直接说出价值",
+        "description": "标题使用较大的字号和紧凑行距，旁边的小文字保持次要，首屏先传达一句主张。",
+        "element": "type-display",
+        "rect": [
+          7,
+          15,
+          80,
+          24
+        ]
+      },
+      {
+        "id": "04-framer-note-2",
+        "title": "发光边界把输入区托出来",
+        "description": "下半部的输入界面用局部蓝光和半透明层次与背景区分，光效集中服务于交互主角。",
+        "element": "depth-glow",
+        "rect": [
+          24,
+          53,
+          54,
+          43
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "05-notion",
+    "annotations": [
+      {
+        "id": "05-notion-note-1",
+        "title": "大标题与动作短句形成一个整体",
+        "description": "标题占据上方中心，按钮紧随其后；产品画面留在下方，阅读路径从主张走向证据。",
+        "element": "layout-hierarchy",
+        "rect": [
+          11,
+          21,
+          78,
+          35
+        ]
+      },
+      {
+        "id": "05-notion-note-2",
+        "title": "插画让真实界面更亲近",
+        "description": "界面旁的小角色与手绘线索增加情绪，而没有取代产品截图本身的说明作用。",
+        "element": "image-illustration",
+        "rect": [
+          13,
+          57,
+          75,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "06-spline",
+    "annotations": [
+      {
+        "id": "06-spline-note-1",
+        "title": "三维物体围绕主要内容",
+        "description": "不同深度和朝向的物体围绕标题分布，暗背景让体积和高光成为视觉主体。",
+        "element": "image-3d",
+        "rect": [
+          5,
+          17,
+          90,
+          70
+        ]
+      },
+      {
+        "id": "06-spline-note-2",
+        "title": "渐变承担表面的光照感",
+        "description": "彩色物体并非均匀的平面填色，明暗与颜色变化共同表现表面曲率。",
+        "element": "color-gradient",
+        "rect": [
+          15,
+          12,
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "07-things",
+    "annotations": [
+      {
+        "id": "07-things-note-1",
+        "title": "留白把应用图标变成主角",
+        "description": "图标、名称、说明与视频入口沿中轴排列，外围空白维持了轻巧而安静的气质。",
+        "element": "layout-whitespace",
+        "rect": [
+          28,
+          9,
+          46,
+          65
+        ]
+      },
+      {
+        "id": "07-things-note-2",
+        "title": "柔和层次来自图标和纸面",
+        "description": "图标的圆角与轻柔阴影形成物体感，下方斜切的界面截图继续延续这种轻量层次。",
+        "element": "depth-soft",
+        "rect": [
+          40,
+          12,
+          23,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "08-webflow",
+    "annotations": [
+      {
+        "id": "08-webflow-note-1",
+        "title": "标题靠尺寸形成第一落点",
+        "description": "左上大标题明确占据第一层级，说明、按钮与右侧辅助信息各自保持较小体量。",
+        "element": "type-display",
+        "rect": [
+          4,
+          18,
+          88,
+          15
+        ]
+      },
+      {
+        "id": "08-webflow-note-2",
+        "title": "不同示例沿同一条网格展开",
+        "description": "下方多个网站预览使用相同的展示基线和间隔，让多样内容仍有稳定秩序。",
+        "element": "layout-grid",
+        "rect": [
+          4,
+          45,
+          94,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "09-vercel",
+    "annotations": [
+      {
+        "id": "09-vercel-note-1",
+        "title": "三块信息共用横向结构",
+        "description": "左侧主张、中央几何标识和右侧短句形成清楚分区；位置本身就在解释主次。",
+        "element": "layout-grid",
+        "rect": [
+          7,
+          37,
+          85,
+          30
+        ]
+      },
+      {
+        "id": "09-vercel-note-2",
+        "title": "黑白灰让内容成为区别",
+        "description": "标题、按钮、几何图形与底部标识主要靠明暗和尺度区分，少量元素建立强辨识度。",
+        "element": "color-neutral",
+        "rect": [
+          1,
+          1,
+          98,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "10-supabase",
+    "annotations": [
+      {
+        "id": "10-supabase-note-1",
+        "title": "绿色只落在关键位置",
+        "description": "标题中的强调词与主要操作使用绿色，其余信息保持低对比，让强调色有实际指向。",
+        "element": "color-accent",
+        "rect": [
+          9,
+          16,
+          44,
+          22
+        ]
+      },
+      {
+        "id": "10-supabase-note-2",
+        "title": "每个能力有自己的小模块",
+        "description": "下方的信息分别收进卡片，模块之间留有间距，既能独立阅读，也共享整体网格。",
+        "element": "layout-bento",
+        "rect": [
+          9,
+          43,
+          84,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "11-resend",
+    "annotations": [
+      {
+        "id": "11-resend-note-1",
+        "title": "衬线标题改变技术产品的气质",
+        "description": "主标题的字形与旁边的技术式图形形成对照，让同样的开发者产品更有编辑式表达。",
+        "element": "type-serif",
+        "rect": [
+          9,
+          29,
+          39,
+          32
+        ]
+      },
+      {
+        "id": "11-resend-note-2",
+        "title": "空白为主张留下舞台",
+        "description": "文字与右侧立体对象各占一侧，中间保留呼吸空间，信息量较少却没有失去层级。",
+        "element": "layout-whitespace",
+        "rect": [
+          7,
+          15,
+          85,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "12-clerk",
+    "annotations": [
+      {
+        "id": "12-clerk-note-1",
+        "title": "左右分工比装饰更重要",
+        "description": "左侧大主张与右侧解释沿同一水平关系展开，下方多个认证界面继续说明具体能力。",
+        "element": "layout-columns",
+        "rect": [
+          8,
+          20,
+          84,
+          23
+        ]
+      },
+      {
+        "id": "12-clerk-note-2",
+        "title": "输入框也是产品证据",
+        "description": "下方不同登录与注册界面展示输入、操作和辅助信息的分组，能直接参考真实控件层级。",
+        "element": "component-input",
+        "rect": [
+          21,
+          48,
+          63,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "13-neon",
+    "annotations": [
+      {
+        "id": "13-neon-note-1",
+        "title": "绿色成为深色画面的节奏",
+        "description": "上方发光线条和按钮集中使用同一强调色，视觉的技术感有统一来源。",
+        "element": "color-accent",
+        "rect": [
+          1,
+          6,
+          97,
+          60
+        ]
+      },
+      {
+        "id": "13-neon-note-2",
+        "title": "标题从复杂背景中浮出来",
+        "description": "背景图形的细节被压低，左侧较大文字保持清晰，装饰没有取得与主张相同的权重。",
+        "element": "type-display",
+        "rect": [
+          2,
+          45,
+          70,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "14-railway",
+    "annotations": [
+      {
+        "id": "14-railway-note-1",
+        "title": "插画背景先建立场景",
+        "description": "天空与云层提供空间感，中心标题和动作仍保持清楚的读取顺序。",
+        "element": "image-illustration",
+        "rect": [
+          1,
+          7,
+          98,
+          90
+        ]
+      },
+      {
+        "id": "14-railway-note-2",
+        "title": "中心信息用留白隔开",
+        "description": "主张、说明与操作沿中轴布置，与下方较大的展示面板之间保留明显距离。",
+        "element": "layout-whitespace",
+        "rect": [
+          21,
+          18,
+          60,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "15-lusion",
+    "annotations": [
+      {
+        "id": "15-lusion-note-1",
+        "title": "三维形体承担画面的主要重量",
+        "description": "白色和蓝色的立体物体挤入同一画面，通过遮挡、阴影和朝向产生深度。",
+        "element": "image-3d",
+        "rect": [
+          5,
+          21,
+          90,
+          72
+        ]
+      },
+      {
+        "id": "15-lusion-note-2",
+        "title": "上方短句为大图建立入口",
+        "description": "品牌标识与简短介绍留在上沿，让读者先获得定位，再把注意力交给主体画面。",
+        "element": "layout-hierarchy",
+        "rect": [
+          3,
+          3,
+          93,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "16-active-theory",
+    "annotations": [
+      {
+        "id": "16-active-theory-note-1",
+        "title": "发光对象引导进入空间",
+        "description": "中心对象、环形线条与粒子形成共同的视觉落点，暗部则维持场景深度。",
+        "element": "depth-glow",
+        "rect": [
+          28,
+          28,
+          43,
+          65
+        ]
+      },
+      {
+        "id": "16-active-theory-note-2",
+        "title": "场景感不等于平面插图",
+        "description": "画面通过前后遮挡和空间光线暗示可探索性；真实运动与导航方式仍需要打开原站体验。",
+        "element": "image-3d",
+        "rect": [
+          3,
+          4,
+          94,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "17-instrument",
+    "annotations": [
+      {
+        "id": "17-instrument-note-1",
+        "title": "品牌名就是首屏的展示字",
+        "description": "顶部几乎铺满宽度的品牌文字承担了最强的识别作用，其余导航缩小到上沿。",
+        "element": "type-display",
+        "rect": [
+          2,
+          3,
+          96,
+          18
+        ]
+      },
+      {
+        "id": "17-instrument-note-2",
+        "title": "人物摄影提供情绪和尺度",
+        "description": "大面积人物照片与中央的产品画面组合，身体尺度和服装颜色共同形成视觉记忆。",
+        "element": "image-photo",
+        "rect": [
+          4,
+          23,
+          91,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "18-obys",
+    "annotations": [
+      {
+        "id": "18-obys-note-1",
+        "title": "把案例排成一条竖向索引",
+        "description": "中央的连续缩略图构成主轴，两侧小字与大量空白形成清楚的主次分工。",
+        "element": "layout-columns",
+        "rect": [
+          31,
+          4,
+          36,
+          91
+        ]
+      },
+      {
+        "id": "18-obys-note-2",
+        "title": "高密度也能维持对齐",
+        "description": "中央图像、小型说明和两侧信息并非等大，却共同服从稳定的对齐关系。",
+        "element": "layout-grid",
+        "rect": [
+          2,
+          2,
+          95,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "19-unseen",
+    "annotations": [
+      {
+        "id": "19-unseen-note-1",
+        "title": "柔和场景提供材质层次",
+        "description": "拱门、台阶、水面和光线组成空间，低饱和色让材质与体积更容易被看见。",
+        "element": "image-3d",
+        "rect": [
+          2,
+          3,
+          96,
+          94
+        ]
+      },
+      {
+        "id": "19-unseen-note-2",
+        "title": "字形对比让标题有节奏",
+        "description": "标题中不同字形和尺度并置，在柔软场景上形成明确但不生硬的阅读落点。",
+        "element": "type-serif",
+        "rect": [
+          29,
+          31,
+          48,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "20-studio-freight",
+    "annotations": [
+      {
+        "id": "20-studio-freight-note-1",
+        "title": "外围作品形成可浏览的索引",
+        "description": "大小不同的图像沿两侧与底部分布，中央标题保持安静，整体仍由网格关系控制。",
+        "element": "layout-grid",
+        "rect": [
+          2,
+          18,
+          95,
+          80
+        ]
+      },
+      {
+        "id": "20-studio-freight-note-2",
+        "title": "留白把中心主张托出来",
+        "description": "作品图像密集地围在外围，中心较大的空白让一句简短主张仍能保持可见。",
+        "element": "layout-whitespace",
+        "rect": [
+          29,
+          29,
+          45,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "21-bruno-simon",
+    "annotations": [
+      {
+        "id": "21-bruno-simon-note-1",
+        "title": "场景本身就是进入体验的入口",
+        "description": "汽车、道路、网格和植物组成一个立体空间，进入提示直接放在场景里。",
+        "element": "motion-scene",
+        "rect": [
+          23,
+          18,
+          59,
+          72
+        ]
+      },
+      {
+        "id": "21-bruno-simon-note-2",
+        "title": "局部发光建立夜间气氛",
+        "description": "紫色光线照亮场景边缘和中心区域，亮部有集中位置，避免整页平均发光。",
+        "element": "depth-glow",
+        "rect": [
+          5,
+          3,
+          91,
+          93
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "22-brittany-chiang",
+    "annotations": [
+      {
+        "id": "22-brittany-chiang-note-1",
+        "title": "固定简介与长内容分成两栏",
+        "description": "左侧姓名、简介和导航负责定位，右侧经历与项目承担阅读，浏览时两种任务不会混在一起。",
+        "element": "layout-columns",
+        "rect": [
+          7,
+          8,
+          88,
+          88
+        ]
+      },
+      {
+        "id": "22-brittany-chiang-note-2",
+        "title": "颜色用于链接和能力标签",
+        "description": "正文采用相近灰阶，青绿色用于可操作信息和小标签，强调范围保持克制。",
+        "element": "color-accent",
+        "rect": [
+          49,
+          65,
+          43,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "23-rauno",
+    "annotations": [
+      {
+        "id": "23-rauno-note-1",
+        "title": "文字靠尺度形成画面",
+        "description": "大段自我介绍以较大字号成为主体，页面不依赖复杂组件就能建立强视觉中心。",
+        "element": "type-display",
+        "rect": [
+          5,
+          19,
+          72,
+          70
+        ]
+      },
+      {
+        "id": "23-rauno-note-2",
+        "title": "亮色圆形与黑字形成强对比",
+        "description": "黄色形状与大字叠合，色块承担强调作用，而不是被当作独立装饰塞在角落。",
+        "element": "color-vivid",
+        "rect": [
+          34,
+          12,
+          56,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "24-paco",
+    "annotations": [
+      {
+        "id": "24-paco-note-1",
+        "title": "内容少时，留白决定阅读感",
+        "description": "简介、链接和小型目录之间有清楚的分隔，留白承担分组，不需要每组再加卡片。",
+        "element": "layout-whitespace",
+        "rect": [
+          20,
+          9,
+          70,
+          87
+        ]
+      },
+      {
+        "id": "24-paco-note-2",
+        "title": "多列链接共享一个文本节奏",
+        "description": "中部不同主题的链接以短行和相近间距排列，轻量信息仍然可以依靠网格组织。",
+        "element": "layout-grid",
+        "rect": [
+          27,
+          35,
+          64,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "25-lee-robinson",
+    "annotations": [
+      {
+        "id": "25-lee-robinson-note-1",
+        "title": "左右两侧承担不同任务",
+        "description": "个人介绍与文章目录在左侧，插画在右侧形成视觉陪衬，文字仍保有主要阅读面积。",
+        "element": "layout-columns",
+        "rect": [
+          3,
+          2,
+          95,
+          95
+        ]
+      },
+      {
+        "id": "25-lee-robinson-note-2",
+        "title": "插画把个人主页变得可辨认",
+        "description": "右侧插画用较完整的色彩和场景提供记忆点，左侧正文因此可以继续保持克制。",
+        "element": "image-illustration",
+        "rect": [
+          63,
+          5,
+          34,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "26-apple",
+    "annotations": [
+      {
+        "id": "26-apple-note-1",
+        "title": "摄影把产品差异说清楚",
+        "description": "产品和手部占据画面中心，背景几乎不分散注意力，形状、厚度与使用尺度变得可见。",
+        "element": "image-photo",
+        "rect": [
+          26,
+          35,
+          47,
+          45
+        ]
+      },
+      {
+        "id": "26-apple-note-2",
+        "title": "短标题与两种操作建立层级",
+        "description": "上方标题、说明与两个按钮紧密组织，主操作和次操作的权重不同，外围留有大面积空白。",
+        "element": "component-button",
+        "rect": [
+          36,
+          14,
+          30,
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "27-nothing",
+    "annotations": [
+      {
+        "id": "27-nothing-note-1",
+        "title": "产品摄影成为深色画面的中心",
+        "description": "耳机在黑底中靠边缘光和结构细节被识别，画面不依赖密集说明。",
+        "element": "image-photo",
+        "rect": [
+          34,
+          14,
+          43,
+          81
+        ]
+      },
+      {
+        "id": "27-nothing-note-2",
+        "title": "等宽文字延续技术式语言",
+        "description": "标题与信息的字形、字距带来器材般的秩序感，与产品的硬质轮廓相呼应。",
+        "element": "type-mono",
+        "rect": [
+          31,
+          43,
+          43,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "28-bang-olufsen",
+    "annotations": [
+      {
+        "id": "28-bang-olufsen-note-1",
+        "title": "生活场景解释产品属于哪里",
+        "description": "产品被放进完整的室内环境，而非孤立陈列，材料、家具和人物共同传递使用情境。",
+        "element": "image-photo",
+        "rect": [
+          1,
+          1,
+          98,
+          79
+        ]
+      },
+      {
+        "id": "28-bang-olufsen-note-2",
+        "title": "把文案留在摄影的安静区域",
+        "description": "中心文案与操作集中在图像下方较平稳的区域，减少了文字与复杂背景争抢注意力。",
+        "element": "layout-hierarchy",
+        "rect": [
+          19,
+          49,
+          65,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "29-teenage-engineering",
+    "annotations": [
+      {
+        "id": "29-teenage-engineering-note-1",
+        "title": "实物占据主要展示面积",
+        "description": "器材近距离进入画面，按钮、把手、表面纹理等细节成为产品识别的一部分。",
+        "element": "image-photo",
+        "rect": [
+          12,
+          23,
+          73,
+          74
+        ]
+      },
+      {
+        "id": "29-teenage-engineering-note-2",
+        "title": "技术式导航服从共同网格",
+        "description": "上沿的品牌、图标和短字沿基线布置，等宽感的信息语言与器材本身一致。",
+        "element": "type-mono",
+        "rect": [
+          2,
+          2,
+          94,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "30-dji",
+    "annotations": [
+      {
+        "id": "30-dji-note-1",
+        "title": "大幅摄影先建立用途和尺度",
+        "description": "飞行器与天空、地平线一起出现，让形态和应用场景在第一眼就被理解。",
+        "element": "image-photo",
+        "rect": [
+          1,
+          14,
+          98,
+          71
+        ]
+      },
+      {
+        "id": "30-dji-note-2",
+        "title": "标题、说明和操作沿中轴排列",
+        "description": "中心几行文字与按钮的间距紧密，周围大幅摄影承担情绪，核心行动仍集中在一个位置。",
+        "element": "layout-hierarchy",
+        "rect": [
+          33,
+          14,
+          34,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "31-stripe-press",
+    "annotations": [
+      {
+        "id": "31-stripe-press-note-1",
+        "title": "书籍像真实物体一样被陈列",
+        "description": "封面、书脊和纸张厚度组成具有深度的书堆，让图案与材料同时被看见。",
+        "element": "image-3d",
+        "rect": [
+          30,
+          31,
+          59,
+          67
+        ]
+      },
+      {
+        "id": "31-stripe-press-note-2",
+        "title": "空白把陈列从背景中分离",
+        "description": "左上品牌信息保持很小，深色空白让书籍成为几乎唯一的主角。",
+        "element": "layout-whitespace",
+        "rect": [
+          2,
+          3,
+          93,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "32-pudding",
+    "annotations": [
+      {
+        "id": "32-pudding-note-1",
+        "title": "重复网格让多篇故事可快速扫描",
+        "description": "每张封面大小和标题位置相近，即使插画色彩不同，也能沿着稳定节奏浏览。",
+        "element": "layout-grid",
+        "rect": [
+          6,
+          30,
+          91,
+          66
+        ]
+      },
+      {
+        "id": "32-pudding-note-2",
+        "title": "强色封面承担内容差异",
+        "description": "不同故事使用高对比底色与独立图形，在统一网格中产生清楚的识别。",
+        "element": "color-vivid",
+        "rect": [
+          7,
+          32,
+          89,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "33-works-in-progress",
+    "annotations": [
+      {
+        "id": "33-works-in-progress-note-1",
+        "title": "阅读区借用编辑式字体语言",
+        "description": "文章标题与说明采用衬线表达，与细线和纸感背景一起建立长文阅读的气质。",
+        "element": "type-serif",
+        "rect": [
+          2,
+          73,
+          43,
+          19
+        ]
+      },
+      {
+        "id": "33-works-in-progress-note-2",
+        "title": "图像、标题和说明形成上下分工",
+        "description": "首篇文章用大图先给出视觉入口，标题与短说明收进下方色块，避免把所有信息压在图像上。",
+        "element": "layout-columns",
+        "rect": [
+          1,
+          17,
+          97,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "34-pentagram",
+    "annotations": [
+      {
+        "id": "34-pentagram-note-1",
+        "title": "主视觉中的大字同时是图形",
+        "description": "夸张字形占据色块主体，文字的轮廓与负空间本身就构成了画面。",
+        "element": "type-display",
+        "rect": [
+          7,
+          9,
+          85,
+          54
+        ]
+      },
+      {
+        "id": "34-pentagram-note-2",
+        "title": "不同项目沿共同边界切换",
+        "description": "主图与下方项目标题被明确的横向边界分开，多种视觉语言因此仍有稳定的作品索引。",
+        "element": "layout-grid",
+        "rect": [
+          1,
+          2,
+          98,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "35-monocle",
+    "annotations": [
+      {
+        "id": "35-monocle-note-1",
+        "title": "不同宽度的栏承担不同内容",
+        "description": "主文章、大图、小型消息与侧栏广告各有位置；密度很高，但阅读层级仍然可辨。",
+        "element": "layout-columns",
+        "rect": [
+          1,
+          8,
+          97,
+          88
+        ]
+      },
+      {
+        "id": "35-monocle-note-2",
+        "title": "衬线标题延续杂志的阅读气质",
+        "description": "主文章标题与说明在白底上形成连续阅读区，与右侧更碎片化的信息构成区分。",
+        "element": "type-serif",
+        "rect": [
+          3,
+          13,
+          56,
+          19
+        ]
+      },
+      {
+        "id": "35-monocle-note-3",
+        "title": "细线用来分割高密度内容",
+        "description": "顶部栏目和各个信息块之间依靠细线分组，避免每一篇文章都加厚重外框。",
+        "element": "edge-fine",
+        "rect": [
+          1,
+          3,
+          98,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "36-vue",
+    "annotations": [
+      {
+        "id": "36-vue-note-1",
+        "title": "强调色进入标题与主要操作",
+        "description": "品牌绿色只集中在关键字与主按钮，普通正文保持中性，阅读主次因此清楚。",
+        "element": "color-accent",
+        "rect": [
+          22,
+          18,
+          55,
+          35
+        ]
+      },
+      {
+        "id": "36-vue-note-2",
+        "title": "留白隔开首屏主张与后续信息",
+        "description": "标题区与下方说明模块之间保留明显间隔，读者不会在第一眼同时处理过多内容。",
+        "element": "layout-whitespace",
+        "rect": [
+          12,
+          12,
+          76,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "37-vite",
+    "annotations": [
+      {
+        "id": "37-vite-note-1",
+        "title": "发光与渐变集中在空间图形",
+        "description": "右上几何图形通过线条、色彩和明暗建立技术感，左侧文字没有被同样的效果覆盖。",
+        "element": "depth-glow",
+        "rect": [
+          45,
+          14,
+          49,
+          49
+        ]
+      },
+      {
+        "id": "37-vite-note-2",
+        "title": "信息沿可预测的网格向下展开",
+        "description": "主张之后出现代码与能力模块，边界和列宽维持一致，复杂内容仍有清楚的组织。",
+        "element": "layout-grid",
+        "rect": [
+          2,
+          40,
+          95,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "38-ant-design",
+    "annotations": [
+      {
+        "id": "38-ant-design-note-1",
+        "title": "主要操作与次要操作有明显区别",
+        "description": "标题下方的按钮使用不同填充和边界，用户可以快速辨认建议先做的事。",
+        "element": "component-button",
+        "rect": [
+          34,
+          22,
+          35,
+          15
+        ]
+      },
+      {
+        "id": "38-ant-design-note-2",
+        "title": "介绍模块沿稳定列宽排开",
+        "description": "多组说明使用共同的左右边界和间距，向下浏览时不需要重新学习布局规则。",
+        "element": "layout-grid",
+        "rect": [
+          7,
+          35,
+          85,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "39-arco",
+    "annotations": [
+      {
+        "id": "39-arco-note-1",
+        "title": "主张与组件示意分成两块",
+        "description": "左侧文字清楚说明方向，右侧用组件缩略图提供具体感，两部分仍保持视觉联系。",
+        "element": "layout-hierarchy",
+        "rect": [
+          7,
+          18,
+          88,
+          39
+        ]
+      },
+      {
+        "id": "39-arco-note-2",
+        "title": "蓝色贯穿关键字和操作入口",
+        "description": "标题中的颜色、主按钮及组件示意中的强调色彼此呼应，形成一致的识别线索。",
+        "element": "color-accent",
+        "rect": [
+          8,
+          20,
+          39,
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "40-naive",
+    "annotations": [
+      {
+        "id": "40-naive-note-1",
+        "title": "左右装饰为中心标题让出位置",
+        "description": "几何色块留在画面两侧，中心标题和操作保持安静，装饰与功能区域分工明确。",
+        "element": "layout-whitespace",
+        "rect": [
+          23,
+          24,
+          56,
+          47
+        ]
+      },
+      {
+        "id": "40-naive-note-2",
+        "title": "圆角让几何组合变得柔和",
+        "description": "两侧不同颜色的条块使用较大的弧形收尾，即使是强色组合也不会显得尖锐。",
+        "element": "shape-round",
+        "rect": [
+          1,
+          24,
+          24,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "41-gumroad",
+    "annotations": [
+      {
+        "id": "41-gumroad-note-1",
+        "title": "插画与强色块制造轻松气氛",
+        "description": "漂浮的字母和插画打破规整排版，但中央标题与按钮仍保持稳定位置。",
+        "element": "image-illustration",
+        "rect": [
+          1,
+          42,
+          97,
+          54
+        ]
+      },
+      {
+        "id": "41-gumroad-note-2",
+        "title": "描边与硬边让模块有直接的存在感",
+        "description": "下方的功能卡片用明确边界和色块分隔，与首屏的活泼表达形成一致语言。",
+        "element": "edge-bold",
+        "rect": [
+          7,
+          71,
+          82,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "42-neobrutalism",
+    "annotations": [
+      {
+        "id": "42-neobrutalism-note-1",
+        "title": "粗描边让组件结构直接可见",
+        "description": "导航、按钮和展示区域使用强烈边界，视觉重点不依赖柔和模糊阴影。",
+        "element": "edge-bold",
+        "rect": [
+          1,
+          2,
+          97,
+          15
+        ]
+      },
+      {
+        "id": "42-neobrutalism-note-2",
+        "title": "标题在网格背景里成为中心",
+        "description": "大字、绿色强调词与蓝色方格底共同建立风格；字形和背景承担不同层次的表达。",
+        "element": "type-display",
+        "rect": [
+          12,
+          25,
+          77,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "43-craigslist",
+    "annotations": [
+      {
+        "id": "43-craigslist-note-1",
+        "title": "三段式结构服务高密度索引",
+        "description": "左侧工具、中部分类和右侧地区信息各自成列，位置关系比装饰更重要。",
+        "element": "layout-columns",
+        "rect": [
+          2,
+          1,
+          95,
+          97
+        ]
+      },
+      {
+        "id": "43-craigslist-note-2",
+        "title": "链接颜色就是主要视觉线索",
+        "description": "页面用重复的蓝色文本建立可点击性，大小和间距负责进一步分组。",
+        "element": "color-accent",
+        "rect": [
+          28,
+          12,
+          51,
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "44-berkshire",
+    "annotations": [
+      {
+        "id": "44-berkshire-note-1",
+        "title": "衬线标题保持传统文档语气",
+        "description": "页面顶部文字依靠字形与居中排列建立正式感，视觉表达非常克制。",
+        "element": "type-serif",
+        "rect": [
+          28,
+          2,
+          45,
+          16
+        ]
+      },
+      {
+        "id": "44-berkshire-note-2",
+        "title": "两列链接用空白维持组织",
+        "description": "链接清单没有包在组件卡片里，而是利用列宽、项目符号与段间距形成秩序。",
+        "element": "layout-columns",
+        "rect": [
+          3,
+          21,
+          93,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "45-spacejam",
+    "annotations": [
+      {
+        "id": "45-spacejam-note-1",
+        "title": "平铺纹理形成整个页面的背景",
+        "description": "星空图案贯穿画面，背景本身成为怀旧网页的重要视觉线索。",
+        "element": "depth-texture",
+        "rect": [
+          1,
+          1,
+          98,
+          97
+        ]
+      },
+      {
+        "id": "45-spacejam-note-2",
+        "title": "图像导航围绕中心分布",
+        "description": "不同大小的图形围着品牌标识排开，导航更多依靠图像识别而非统一组件。",
+        "element": "image-collage",
+        "rect": [
+          24,
+          17,
+          57,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "46-camerons-world",
+    "annotations": [
+      {
+        "id": "46-camerons-world-note-1",
+        "title": "异质素材叠成一个数字拼贴世界",
+        "description": "星球、角色、建筑与不同质感的小图并置，画面刻意保留素材之间的差异。",
+        "element": "image-collage",
+        "rect": [
+          2,
+          3,
+          95,
+          92
+        ]
+      },
+      {
+        "id": "46-camerons-world-note-2",
+        "title": "视觉密度本身就是表达",
+        "description": "几乎每一处都有细节，重复星空把这些细碎内容连在同一张画布上。",
+        "element": "layout-density",
+        "rect": [
+          1,
+          1,
+          98,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "47-fishwife",
+    "annotations": [
+      {
+        "id": "47-fishwife-note-1",
+        "title": "实物摄影和包装插画共同讲故事",
+        "description": "产品、食材与包装上的插画同时出现，让品牌个性与真实商品保持联系。",
+        "element": "image-photo",
+        "rect": [
+          48,
+          26,
+          49,
+          72
+        ]
+      },
+      {
+        "id": "47-fishwife-note-2",
+        "title": "浅色行动区从深背景里跳出来",
+        "description": "标题和购买入口收在浅色圆角区域，操作位置不会被大幅产品图淹没。",
+        "element": "component-button",
+        "rect": [
+          12,
+          74,
+          35,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "48-olipop",
+    "annotations": [
+      {
+        "id": "48-olipop-note-1",
+        "title": "展示字决定了品牌的亲近语气",
+        "description": "左侧衬线大字具有明显个性，背景保持柔和，文字本身承担了较多情绪表达。",
+        "element": "type-serif",
+        "rect": [
+          8,
+          21,
+          37,
+          32
+        ]
+      },
+      {
+        "id": "48-olipop-note-2",
+        "title": "摄影和文字左右呼应",
+        "description": "右侧产品照片提供质感，左侧主张与按钮负责阅读，两侧权重接近但任务不同。",
+        "element": "image-photo",
+        "rect": [
+          50,
+          7,
+          49,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "49-scificn",
+    "annotations": [
+      {
+        "id": "49-scificn-note-1",
+        "title": "仪表信息被拆进稳定分区",
+        "description": "顶部指标、左侧导航、中间表格和右侧监测各有边界，高密度内容仍有明确入口。",
+        "element": "layout-grid",
+        "rect": [
+          1,
+          3,
+          97,
+          93
+        ]
+      },
+      {
+        "id": "49-scificn-note-2",
+        "title": "状态靠颜色与数字共同表达",
+        "description": "小型指标面板和状态标签使用不同颜色，同时保留数字和文本，避免只靠颜色猜测。",
+        "element": "component-state",
+        "rect": [
+          21,
+          6,
+          75,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "50-augmented-ui",
+    "annotations": [
+      {
+        "id": "50-augmented-ui-note-1",
+        "title": "切角不是普通圆角的替代装饰",
+        "description": "顶部一组面板借用机械与科幻设备的轮廓，边缘形状参与形成整体语言。",
+        "element": "shape-square",
+        "rect": [
+          1,
+          1,
+          97,
+          52
+        ]
+      },
+      {
+        "id": "50-augmented-ui-note-2",
+        "title": "发光线条把面板串起来",
+        "description": "黄色边缘和背景的亮部共同强调几何结构，等宽说明则维持技术式信息气质。",
+        "element": "depth-glow",
+        "rect": [
+          1,
+          4,
+          97,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "51-nes-css",
+    "annotations": [
+      {
+        "id": "51-nes-css-note-1",
+        "title": "像素轮廓贯穿标题与控件",
+        "description": "文字、对话框和按钮都沿用像素化边缘，风格不是只换一张像素插画。",
+        "element": "type-pixel",
+        "rect": [
+          17,
+          3,
+          75,
+          88
+        ]
+      },
+      {
+        "id": "51-nes-css-note-2",
+        "title": "状态按钮用颜色和文本区分",
+        "description": "示例把不同语义按钮并排展示，边框一致，变化集中在填充色与标签。",
+        "element": "component-state",
+        "rect": [
+          21,
+          69,
+          67,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "52-rpgui",
+    "annotations": [
+      {
+        "id": "52-rpgui-note-1",
+        "title": "边框借用游戏窗口的材质",
+        "description": "外框、按钮和面板使用复古游戏式纹理，画面像一个有边缘厚度的窗口。",
+        "element": "depth-texture",
+        "rect": [
+          17,
+          2,
+          64,
+          96
+        ]
+      },
+      {
+        "id": "52-rpgui-note-2",
+        "title": "像素字体与组件共享同一语气",
+        "description": "标题、说明和操作继续使用像素式表达，避免风格只停留在大标题上。",
+        "element": "type-pixel",
+        "rect": [
+          25,
+          5,
+          51,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "53-terminal-css",
+    "annotations": [
+      {
+        "id": "53-terminal-css-note-1",
+        "title": "等宽文本决定了文档的节奏",
+        "description": "标题、导航、代码和正文共享字符感较强的字体，页面更像一份可阅读的终端说明。",
+        "element": "type-mono",
+        "rect": [
+          16,
+          7,
+          76,
+          88
+        ]
+      },
+      {
+        "id": "53-terminal-css-note-2",
+        "title": "细线隔开示例与解释",
+        "description": "浅色边框和横线让代码、提示及正文保持区分，同时没有增加过多装饰层。",
+        "element": "edge-fine",
+        "rect": [
+          17,
+          37,
+          70,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "54-hackertyper",
+    "annotations": [
+      {
+        "id": "54-hackertyper-note-1",
+        "title": "字符本身就是界面主体",
+        "description": "黑底上的代码与提示构成全部主要内容，画面的秩序依赖文本行与字符密度。",
+        "element": "type-mono",
+        "rect": [
+          1,
+          1,
+          90,
+          91
+        ]
+      },
+      {
+        "id": "54-hackertyper-note-2",
+        "title": "交互反馈需要实际操作观察",
+        "description": "这里能看到输入后的代码状态；原站的键入反馈是风格的一部分，静态截图只能保留其中一刻。",
+        "element": "motion-feedback",
+        "rect": [
+          1,
+          3,
+          80,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "55-css-glass",
+    "annotations": [
+      {
+        "id": "55-css-glass-note-1",
+        "title": "半透明面板能透出后面的色彩",
+        "description": "中央设置卡片与后方装饰共享颜色关系，边缘与模糊程度共同说明玻璃层次。",
+        "element": "depth-glass",
+        "rect": [
+          34,
+          28,
+          39,
+          68
+        ]
+      },
+      {
+        "id": "55-css-glass-note-2",
+        "title": "渐变背景为透明材质提供参照",
+        "description": "红紫色背景与漂浮形状让透明度和模糊更容易被看出来，白底上的透明卡片则未必如此明显。",
+        "element": "color-gradient",
+        "rect": [
+          1,
+          1,
+          98,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "56-hype-glass",
+    "annotations": [
+      {
+        "id": "56-hype-glass-note-1",
+        "title": "右侧设置面板表现磨砂层",
+        "description": "表面能透出后方立体物体，较柔的轮廓与亮边界共同建立前后层次。",
+        "element": "depth-glass",
+        "rect": [
+          57,
+          21,
+          34,
+          60
+        ]
+      },
+      {
+        "id": "56-hype-glass-note-2",
+        "title": "滑块把材质参数变成可操作对象",
+        "description": "一组参数沿竖向对齐，预览与控制距离较近，调整后可以直接观察视觉变化。",
+        "element": "component-input",
+        "rect": [
+          63,
+          27,
+          24,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "57-neumorphism",
+    "annotations": [
+      {
+        "id": "57-neumorphism-note-1",
+        "title": "同色表面的双向阴影形成凸起",
+        "description": "左侧小样与背景接近同色，亮边和暗边分别落在不同方向，体积来自光影关系。",
+        "element": "depth-soft",
+        "rect": [
+          20,
+          29,
+          25,
+          48
+        ]
+      },
+      {
+        "id": "57-neumorphism-note-2",
+        "title": "参数区也延续柔和浮雕",
+        "description": "右侧设置面板和控件继续使用同色表面与圆角，让工具本身参与说明这种材质。",
+        "element": "component-input",
+        "rect": [
+          53,
+          19,
+          36,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "58-neumorphism-ui",
+    "annotations": [
+      {
+        "id": "58-neumorphism-ui-note-1",
+        "title": "控件像从背景表面浮起来",
+        "description": "按钮和底部图标的明暗阴影与背景共同作用，边界不是主要靠描边形成。",
+        "element": "depth-soft",
+        "rect": [
+          23,
+          36,
+          58,
+          54
+        ]
+      },
+      {
+        "id": "58-neumorphism-ui-note-2",
+        "title": "留白让轻微的凸凹更容易识别",
+        "description": "主标题、操作与下方说明之间保留大块空白，避免微弱的表面变化被密集内容淹没。",
+        "element": "layout-whitespace",
+        "rect": [
+          17,
+          12,
+          67,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "59-poolsuite",
+    "annotations": [
+      {
+        "id": "59-poolsuite-note-1",
+        "title": "播放器借用桌面窗口的隐喻",
+        "description": "标题条、控制区与窗口外框把媒体包装成一个可以操作的独立对象。",
+        "element": "shape-square",
+        "rect": [
+          28,
+          15,
+          43,
+          66
+        ]
+      },
+      {
+        "id": "59-poolsuite-note-2",
+        "title": "操作区依赖一致的小型按钮",
+        "description": "播放控制、进度与底部工具使用相近的视觉语言，复杂操作仍留在固定区域。",
+        "element": "component-button",
+        "rect": [
+          29,
+          61,
+          43,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "60-98-css",
+    "annotations": [
+      {
+        "id": "60-98-css-note-1",
+        "title": "历史窗口边缘形成清楚层次",
+        "description": "示例中的按钮和窗口通过明暗镶边表现凸起，不依赖现代柔和投影。",
+        "element": "edge-fine",
+        "rect": [
+          17,
+          25,
+          36,
+          15
+        ]
+      },
+      {
+        "id": "60-98-css-note-2",
+        "title": "文档把真实控件与代码并列说明",
+        "description": "窗口示例下方紧跟使用说明与代码，读者能够把视觉结构对应到具体实现。",
+        "element": "component-input",
+        "rect": [
+          17,
+          26,
+          68,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "61-xp-css",
+    "annotations": [
+      {
+        "id": "61-xp-css-note-1",
+        "title": "标题条的渐变强化桌面记忆",
+        "description": "蓝色标题条、浅色面板与圆润边缘形成容易识别的历史桌面语言。",
+        "element": "color-gradient",
+        "rect": [
+          14,
+          31,
+          31,
+          16
+        ]
+      },
+      {
+        "id": "61-xp-css-note-2",
+        "title": "按钮状态继续遵循同一系统",
+        "description": "文档示例中的按钮、字段与提示保留一致边界，让历史外观仍能支持明确操作。",
+        "element": "component-state",
+        "rect": [
+          14,
+          30,
+          33,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "62-material",
+    "annotations": [
+      {
+        "id": "62-material-note-1",
+        "title": "形状成为系统化视觉特征",
+        "description": "圆角矩形、胶囊和柔和容器在不同模块里重复出现，形成可识别的组件语言。",
+        "element": "shape-round",
+        "rect": [
+          8,
+          5,
+          87,
+          70
+        ]
+      },
+      {
+        "id": "62-material-note-2",
+        "title": "主标题、操作与组件画面分工",
+        "description": "左侧主张和操作先说明方向，右侧组件拼贴提供视觉证据，后续内容沿网格展开。",
+        "element": "layout-hierarchy",
+        "rect": [
+          8,
+          7,
+          87,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "63-angular-material",
+    "annotations": [
+      {
+        "id": "63-angular-material-note-1",
+        "title": "同一种操作存在多种视觉权重",
+        "description": "示例将不同填充和边界的按钮并排展示，适合比较主操作、次操作与文字操作。",
+        "element": "component-button",
+        "rect": [
+          27,
+          27,
+          65,
+          46
+        ]
+      },
+      {
+        "id": "63-angular-material-note-2",
+        "title": "同一组件在不同状态下保持结构",
+        "description": "颜色、边框或禁用表现会变化，尺寸和文字位置仍保持相近，降低识别成本。",
+        "element": "component-state",
+        "rect": [
+          29,
+          37,
+          57,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "64-shadcn-admin",
+    "annotations": [
+      {
+        "id": "64-shadcn-admin-note-1",
+        "title": "固定导航与工作内容明确分开",
+        "description": "左侧导航是稳定入口，右侧指标、图表与列表构成主要工作区域。",
+        "element": "layout-columns",
+        "rect": [
+          1,
+          3,
+          97,
+          94
+        ]
+      },
+      {
+        "id": "64-shadcn-admin-note-2",
+        "title": "指标卡、图表与列表服从共同网格",
+        "description": "数据类型不同，仍共享列宽、边界和内边距，因此可以在高密度页面里快速定位。",
+        "element": "layout-grid",
+        "rect": [
+          18,
+          19,
+          79,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "65-tabler",
+    "annotations": [
+      {
+        "id": "65-tabler-note-1",
+        "title": "多层模块共用清楚的网格",
+        "description": "欢迎区、指标、小图表和底部图形占用不同跨度，但始终在一套列结构里排列。",
+        "element": "layout-bento",
+        "rect": [
+          3,
+          23,
+          94,
+          74
+        ]
+      },
+      {
+        "id": "65-tabler-note-2",
+        "title": "状态和行动用少量强调色区分",
+        "description": "顶部主要操作与关键指标使用蓝色，其他内容保持中性，减少后台页面的噪声。",
+        "element": "component-state",
+        "rect": [
+          3,
+          16,
+          94,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "66-headspace",
+    "annotations": [
+      {
+        "id": "66-headspace-note-1",
+        "title": "插画把服务变成可感知的体验",
+        "description": "角色与图片出现在功能卡片里，使抽象的心理健康服务更容易理解，也更亲近。",
+        "element": "image-illustration",
+        "rect": [
+          9,
+          51,
+          49,
+          25
+        ]
+      },
+      {
+        "id": "66-headspace-note-2",
+        "title": "圆润形状连接不同内容类型",
+        "description": "卡片、按钮和插画轮廓都避免尖锐边缘，即使混合照片与插画，页面仍有共同气质。",
+        "element": "shape-round",
+        "rect": [
+          10,
+          33,
+          82,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "67-finch",
+    "annotations": [
+      {
+        "id": "67-finch-note-1",
+        "title": "角色与场景共同营造陪伴感",
+        "description": "角色、云朵、树木和草地形成完整场景，服务信息被放在这个友善的环境里。",
+        "element": "image-illustration",
+        "rect": [
+          3,
+          2,
+          94,
+          94
+        ]
+      },
+      {
+        "id": "67-finch-note-2",
+        "title": "自然轮廓减少组件的生硬感",
+        "description": "云和地形使用不规则曲线，按钮和信息块再保持明确轮廓，功能区域不会消失在插画里。",
+        "element": "shape-organic",
+        "rect": [
+          4,
+          4,
+          91,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "68-bento",
+    "annotations": [
+      {
+        "id": "68-bento-note-1",
+        "title": "不同跨度的卡片形成便当盒布局",
+        "description": "几张卡片并非完全等大，却共享外边界和间距；模块自己的内容层级也很清楚。",
+        "element": "layout-bento",
+        "rect": [
+          28,
+          42,
+          65,
+          50
+        ]
+      },
+      {
+        "id": "68-bento-note-2",
+        "title": "细边界维持模块间的独立性",
+        "description": "低对比描边和圆角把内容分开，卡片没有依赖很重的投影争夺注意力。",
+        "element": "edge-fine",
+        "rect": [
+          29,
+          44,
+          63,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "69-7-css",
+    "annotations": [
+      {
+        "id": "69-7-css-note-1",
+        "title": "透明标题条借用经典桌面质感",
+        "description": "窗口示例里的透明层与背景色发生联系，亮边、圆角和渐变延续同一套历史语言。",
+        "element": "depth-glass",
+        "rect": [
+          17,
+          24,
+          30,
+          17
+        ]
+      },
+      {
+        "id": "69-7-css-note-2",
+        "title": "表单和按钮展示状态的一致性",
+        "description": "输入与操作沿用同样的边界和尺寸关系，复古外观没有改变控件的基本分工。",
+        "element": "component-state",
+        "rect": [
+          17,
+          26,
+          38,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "70-system-css",
+    "annotations": [
+      {
+        "id": "70-system-css-note-1",
+        "title": "方正窗口与像素式文字互相呼应",
+        "description": "标题、左侧树形目录和窗口外框都采用硬边结构，形成早期桌面界面的整体感。",
+        "element": "type-pixel",
+        "rect": [
+          1,
+          1,
+          98,
+          44
+        ]
+      },
+      {
+        "id": "70-system-css-note-2",
+        "title": "按钮示例依靠简单边缘区分状态",
+        "description": "下方控件用清楚的小型边框和有限色阶呈现交互，组件结构直接可见。",
+        "element": "component-button",
+        "rect": [
+          27,
+          52,
+          39,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "71-liquidglass",
+    "annotations": [
+      {
+        "id": "71-liquidglass-note-1",
+        "title": "摄影为透明层提供可见的背景",
+        "description": "画面中明暗与色彩变化丰富的风景，让透明导航和面板的边缘更容易被识别。",
+        "element": "image-photo",
+        "rect": [
+          9,
+          3,
+          83,
+          83
+        ]
+      },
+      {
+        "id": "71-liquidglass-note-2",
+        "title": "透明容器通过亮边与背景建立关系",
+        "description": "底部面板与顶部导航都透出后方景色；静态图能观察轮廓，真实折射与移动仍需体验原站。",
+        "element": "depth-glass",
+        "rect": [
+          12,
+          49,
+          77,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "72-liquid-react",
+    "annotations": [
+      {
+        "id": "72-liquid-react-note-1",
+        "title": "中央透明层与图像互相作用",
+        "description": "透明对象叠在彩色图像前方，材质效果依赖背景内容，而不是单独一层浅灰填充。",
+        "element": "depth-glass",
+        "rect": [
+          34,
+          24,
+          37,
+          39
+        ]
+      },
+      {
+        "id": "72-liquid-react-note-2",
+        "title": "左右滑块让材质能够被调节",
+        "description": "参数分置两边，中央预览保留主要面积，设置与视觉结果之间有直接关系。",
+        "element": "component-input",
+        "rect": [
+          3,
+          11,
+          93,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "73-clay-generator",
+    "annotations": [
+      {
+        "id": "73-clay-generator-note-1",
+        "title": "鼓起的圆角表面形成黏土感",
+        "description": "右侧图标、卡片和按钮通过内高光与柔软暗部表现体积，轮廓大而圆润。",
+        "element": "depth-soft",
+        "rect": [
+          45,
+          14,
+          49,
+          68
+        ]
+      },
+      {
+        "id": "73-clay-generator-note-2",
+        "title": "参数区把不同光影关系分开",
+        "description": "左侧滑块分别控制表面和阴影，能把“柔软”拆成可以观察的具体变化。",
+        "element": "component-input",
+        "rect": [
+          7,
+          25,
+          31,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "74-clay-bloom",
+    "annotations": [
+      {
+        "id": "74-clay-bloom-note-1",
+        "title": "柔和渐变与低饱和模块共存",
+        "description": "背景的颜色过渡比较轻，下面的多色卡片保持相近明度，整体不会产生强烈割裂。",
+        "element": "color-pastel",
+        "rect": [
+          14,
+          17,
+          75,
+          73
+        ]
+      },
+      {
+        "id": "74-clay-bloom-note-2",
+        "title": "内高光与圆角让卡片显得鼓起",
+        "description": "下方模块边缘较柔，亮暗变化集中在表面边界，形成轻量的软质体积。",
+        "element": "depth-soft",
+        "rect": [
+          21,
+          57,
+          60,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "75-palace",
+    "annotations": [
+      {
+        "id": "75-palace-note-1",
+        "title": "建筑摄影给出不可替代的场景",
+        "description": "大幅宫殿图像建立空间与文化语境，页面的其他装饰不需要重复承担这项任务。",
+        "element": "image-photo",
+        "rect": [
+          1,
+          7,
+          97,
+          55
+        ]
+      },
+      {
+        "id": "75-palace-note-2",
+        "title": "展示字直接落在场景中心",
+        "description": "主标题用明显的尺度和色彩从摄影里浮出，标题与建筑的共同中轴让画面保持稳定。",
+        "element": "type-display",
+        "rect": [
+          27,
+          20,
+          50,
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "76-dunhuang",
+    "annotations": [
+      {
+        "id": "76-dunhuang-note-1",
+        "title": "主标题通过尺度区分信息语言",
+        "description": "中文与英文标题共享主要区域，但尺度和行数不同，在暗部场景上形成清楚层级。",
+        "element": "type-display",
+        "rect": [
+          31,
+          31,
+          63,
+          31
+        ]
+      },
+      {
+        "id": "76-dunhuang-note-2",
+        "title": "红色集中指向入口与当前栏目",
+        "description": "画面中的暖红主要用于操作和栏目状态，较大的图像仍然承担情绪与主题。",
+        "element": "color-accent",
+        "rect": [
+          27,
+          68,
+          64,
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "77-y2k-artifx",
+    "annotations": [
+      {
+        "id": "77-y2k-artifx-note-1",
+        "title": "金属式渐变建立千禧年数字气质",
+        "description": "中央容器和顶部控件呈现冷色过渡，明亮与暗部的变化带来塑料和金属般的联想。",
+        "element": "color-gradient",
+        "rect": [
+          1,
+          3,
+          97,
+          15
+        ]
+      },
+      {
+        "id": "77-y2k-artifx-note-2",
+        "title": "标题字形与小型标签共享强个性",
+        "description": "较厚的展示字与彩色胶囊标签一起形成识别，普通说明则保持较小字号。",
+        "element": "type-display",
+        "rect": [
+          5,
+          21,
+          66,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "78-rewind",
+    "annotations": [
+      {
+        "id": "78-rewind-note-1",
+        "title": "整个首屏使用连续的色彩过渡",
+        "description": "紫、粉、蓝与浅绿色在背景和模块间延续，让不同内容像处在同一个光照环境里。",
+        "element": "color-gradient",
+        "rect": [
+          1,
+          2,
+          98,
+          94
+        ]
+      },
+      {
+        "id": "78-rewind-note-2",
+        "title": "透明卡片把信息收进轻薄表面",
+        "description": "下方模块边界轻、表面透，既能分组，又保留了背景颜色的连续性。",
+        "element": "depth-glass",
+        "rect": [
+          11,
+          67,
+          80,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "79-fluent",
+    "annotations": [
+      {
+        "id": "79-fluent-note-1",
+        "title": "三维对象与主标题共同建立方向",
+        "description": "右侧立体几何形状承担材质和色彩，左侧大字负责说明定位，二者有明确分工。",
+        "element": "image-3d",
+        "rect": [
+          49,
+          4,
+          46,
+          57
+        ]
+      },
+      {
+        "id": "79-fluent-note-2",
+        "title": "入口卡片沿统一网格排列",
+        "description": "设计与开发两个入口具有相近轮廓和对齐关系，帮助用户按照任务分流。",
+        "element": "layout-grid",
+        "rect": [
+          20,
+          64,
+          76,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "80-fluent-button",
+    "annotations": [
+      {
+        "id": "80-fluent-button-note-1",
+        "title": "按钮类型可以直接并排比较",
+        "description": "组件示例把多个按钮放在同一区域，填充、边界与文字权重之间的区别一眼可见。",
+        "element": "component-button",
+        "rect": [
+          26,
+          53,
+          59,
+          21
+        ]
+      },
+      {
+        "id": "80-fluent-button-note-2",
+        "title": "状态变化服从一致的组件结构",
+        "description": "不同外观共用相近的尺寸、间距和文字位置，让变化集中在语义与权重上。",
+        "element": "component-state",
+        "rect": [
+          29,
+          57,
+          57,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "81-1014",
+    "annotations": [
+      {
+        "id": "81-1014-note-1",
+        "title": "大字与留白先表达机构定位",
+        "description": "左侧主标题简短而有体量，右侧说明较轻，版面先呈现一个明确主张。",
+        "element": "type-display",
+        "rect": [
+          2,
+          16,
+          60,
+          26
+        ]
+      },
+      {
+        "id": "81-1014-note-2",
+        "title": "摄影内容以明确的分栏展开",
+        "description": "下半部不同画面共享分界和基线，图像的多样性被稳定的版式组织起来。",
+        "element": "layout-columns",
+        "rect": [
+          1,
+          52,
+          98,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "82-bauhaus-demo",
+    "annotations": [
+      {
+        "id": "82-bauhaus-demo-note-1",
+        "title": "大字与原色构成共同的视觉主张",
+        "description": "主标题里少量红色与右上圆形呼应，文字、色块和几何形状一起构成画面。",
+        "element": "type-display",
+        "rect": [
+          12,
+          21,
+          65,
+          27
+        ]
+      },
+      {
+        "id": "82-bauhaus-demo-note-2",
+        "title": "不同色块仍服从一个模块网格",
+        "description": "下方红黄蓝模块以明确边界与相近间距排列，几何变化不会打散组织关系。",
+        "element": "layout-grid",
+        "rect": [
+          7,
+          66,
+          87,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "83-memphoria",
+    "annotations": [
+      {
+        "id": "83-memphoria-note-1",
+        "title": "对比色为图像建立活泼的底座",
+        "description": "黄色背景与黑色描边先建立外壳，再容纳摄影和文章文字，视觉语言非常直接。",
+        "element": "color-vivid",
+        "rect": [
+          1,
+          1,
+          98,
+          96
+        ]
+      },
+      {
+        "id": "83-memphoria-note-2",
+        "title": "粗边框与条纹创造装饰节奏",
+        "description": "导航和内容框使用清楚边缘，斜纹装饰把平面分区变成可识别的图形。",
+        "element": "edge-bold",
+        "rect": [
+          22,
+          4,
+          59,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "84-memphis-demo",
+    "annotations": [
+      {
+        "id": "84-memphis-demo-note-1",
+        "title": "展示字的形状参与表达态度",
+        "description": "中央几行标题有明显的大小、方向与颜色变化，字本身就是最主要的图形。",
+        "element": "type-display",
+        "rect": [
+          28,
+          25,
+          42,
+          28
+        ]
+      },
+      {
+        "id": "84-memphis-demo-note-2",
+        "title": "粗轮廓与有机装饰形成轻松张力",
+        "description": "几何物体并不完全规整，边界却很直接；不同规则的并置构成画面个性。",
+        "element": "shape-organic",
+        "rect": [
+          34,
+          13,
+          33,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "85-wired",
+    "annotations": [
+      {
+        "id": "85-wired-note-1",
+        "title": "手绘线条让控件看起来像草图",
+        "description": "按钮、字段和边框保留不完全笔直的轮廓，但控件的功能位置仍然明确。",
+        "element": "edge-sketch",
+        "rect": [
+          17,
+          36,
+          68,
+          14
+        ]
+      },
+      {
+        "id": "85-wired-note-2",
+        "title": "表单结构依然服从常见的操作习惯",
+        "description": "复选、输入和选择器沿清楚的方向排列，手绘外观没有取代基本的信息分组。",
+        "element": "component-input",
+        "rect": [
+          16,
+          67,
+          74,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "86-rough-notation",
+    "annotations": [
+      {
+        "id": "86-rough-notation-note-1",
+        "title": "手绘标记把注意力留在具体文字上",
+        "description": "高亮、圈线和方框附着在语句中的局部，强调范围由阅读任务决定。",
+        "element": "edge-sketch",
+        "rect": [
+          28,
+          2,
+          51,
+          42
+        ]
+      },
+      {
+        "id": "86-rough-notation-note-2",
+        "title": "动画是标记出现的过程",
+        "description": "下方按钮对应不同标记演示，点击后线条如何出现需要在原站体验，截图保留的是其中一个状态。",
+        "element": "motion-feedback",
+        "rect": [
+          28,
+          53,
+          51,
+          43
+        ]
+      }
+    ]
+  }
+]
